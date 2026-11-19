@@ -1,0 +1,1 @@
+export async function register(){if(process.env.NEXT_RUNTIME==='nodejs'&&process.env.JOBMASTER_BACKEND!=='supabase'){const {finalizeOverdue}=await import('./lib/store');finalizeOverdue();const timer=setInterval(()=>{try{finalizeOverdue();}catch(e){console.error('Exam expiry worker failed',e);}},1000);timer.unref();}}

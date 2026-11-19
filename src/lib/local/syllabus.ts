@@ -1,0 +1,7 @@
+import {NextRequest,NextResponse} from 'next/server';
+import {db} from '@/lib/store';
+import {user,sameOrigin} from '@/lib/auth';
+import {studySyllabus} from '@/lib/syllabus';
+db.exec('CREATE TABLE IF NOT EXISTS jm_progress(user_id TEXT REFERENCES jm_users(id),topic_id TEXT,done INTEGER DEFAULT 0,updated INTEGER,PRIMARY KEY(user_id,topic_id))');
+export async function GET(req:NextRequest){const u=user(req);if(!u)return NextResponse.json({error:'Unauthorized'},{status:401});const track=req.nextUrl.searchParams.get('track')==='EEE'?'EEE':'BCS';return NextResponse.json({subjects:studySyllabus[track],progress:db.prepare('SELECT topic_id,done FROM jm_progress WHERE user_id=?').all(u.id),status:'editorial-study-outline-not-official',officialDocument:null});}
+export async function POST(req:NextRequest){const u=user(req);if(!u)return NextResponse.json({error:'Unauthorized'},{status:401});if(!sameOrigin(req))return NextResponse.json({error:'Invalid origin'},{status:403});try{const b=await req.json();const all=Object.entries(studySyllabus).flatMap(([track,ss])=>ss.flatMap(s=>s.chapters.flatMap((c,ci)=>c.topics.map((_,ti)=>`${track}:${s.id}:${ci}:${ti}`))));if(!all.includes(b.topicId))return NextResponse.json({error:'Unknown topic'},{status:400});db.prepare('INSERT INTO jm_progress VALUES(?,?,?,?) ON CONFLICT(user_id,topic_id) DO UPDATE SET done=excluded.done,updated=excluded.updated').run(u.id,b.topicId,b.done?1:0,Date.now());return NextResponse.json({ok:true});}catch{return NextResponse.json({error:'Invalid request'},{status:400});}}

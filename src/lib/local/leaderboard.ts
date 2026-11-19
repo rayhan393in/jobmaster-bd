@@ -1,0 +1,4 @@
+import {NextRequest,NextResponse} from 'next/server';
+import {db,finalizeOverdue} from '@/lib/store';
+import {user} from '@/lib/auth';
+export async function GET(req:NextRequest){if(!user(req))return NextResponse.json({error:'Unauthorized'},{status:401});finalizeOverdue();const id=req.nextUrl.searchParams.get('exam');const exam=db.prepare('SELECT id,title,publish FROM jm_exams WHERE id=?').get(id||'') as {id:string,title:string,publish:number}|undefined;if(!exam)return NextResponse.json({rows:[]});if(Date.now()<exam.publish)return NextResponse.json({rows:[],pending:true});const rows=db.prepare('SELECT u.name,s.score,s.correct,s.started FROM jm_sessions s JOIN jm_users u ON u.id=s.user_id WHERE s.exam_id=? AND s.submitted=1 ORDER BY s.score DESC,s.started ASC LIMIT 100').all(id);return NextResponse.json({title:exam.title,rows});}

@@ -1,0 +1,2 @@
+import {NextRequest,NextResponse} from 'next/server';import {cloudClient} from '@/lib/cloud/client';
+export async function GET(req:NextRequest){try{const c=cloudClient(req);const code=req.nextUrl.searchParams.get('code');if(code){const {error}=await c.client.auth.exchangeCodeForSession(code);if(!error)return c.apply(NextResponse.redirect(new URL('/',req.url)));}return c.apply(NextResponse.redirect(new URL('/?auth=verification-failed',req.url)));}catch{return NextResponse.redirect(new URL('/?auth=configuration-required',req.url));}}
