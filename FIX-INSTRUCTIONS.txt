@@ -1,0 +1,12 @@
+V5 missing module build fix — no SQL or environment changes.
+Extract this archive. Merge its src folder into your EXISTING repository root.
+The final exact paths must be:
+  src/lib/schedule-validation.ts
+  src/lib/local/schedule.ts
+Do not upload the ZIP itself or add an extra nesting folder.
+Commit both files. Vercel must deploy the NEW commit, not retry unchanged 00fa7db.
+If uploading individual files using GitHub web, open the corresponding folder first:
+  src/lib -> Add file -> Upload files -> schedule-validation.ts
+  src/lib/local -> Add file -> Upload files -> schedule.ts
+These are the same verified source files included in the full V5 ZIP.
+No database reset, seed, account deletion or API-key change is needed for this error.
