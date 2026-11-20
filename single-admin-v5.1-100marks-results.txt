@@ -1,0 +1,10 @@
+PASS 1 100 questions imported atomically into independent bank
+PASS 2 All 100 explicitly approved
+PASS 3 Published paper has exact 100 questions, no fallback
+PASS 4 Student opens full 100-question OLD exam interface
+PASS 5 100 unique frozen questions in server session
+PASS 6 All 100 answers saved on server
+PASS 7 100-mark early result embargo
+PASS 8 Actual grading returns 100/100 with 100 correct
+PASS 9 All 100 explanations available after result publish
+9 full 100-mark end-to-end checks passed.

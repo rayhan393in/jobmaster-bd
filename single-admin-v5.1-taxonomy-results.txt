@@ -1,0 +1,15 @@
+PASS Authenticated taxonomy endpoint serves version 2
+PASS All ten BCS subjects visible
+PASS Canonical parent displays actual count despite source subject spelling
+PASS Subtopic rows are visible under parent topic
+PASS Selecting a leaf automatically clears overlapping parent
+PASS Selecting parent automatically clears leaf selections
+PASS Forged overlapping parent/leaf API payload rejected
+PASS Student cannot assign question taxonomy
+PASS Parent topic starts an exact full 3-question paper
+PASS Snapshot carries stable IDs and canonical subject
+PASS Admin dropdown selection persists actual assignment
+PASS Admin reassignment resets question verification
+PASS Three-level selector has no 390px horizontal overflow
+PASS No browser JavaScript errors
+14 taxonomy browser checks passed. Local production server only.

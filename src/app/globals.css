@@ -43,3 +43,10 @@
 
 /* V4 additions inherit existing palette and layout. */
 .v4-tools{min-width:0}.v4-tools .admin-form{margin:18px 0}.v4-tools .cw-tabs{flex-wrap:wrap}.v4-leaf-nav{display:flex;gap:10px;overflow-x:auto;max-width:100%;padding:12px 0}.v4-leaf-nav button{display:flex;flex-direction:column;align-items:flex-start;gap:6px;min-width:190px;max-width:260px;white-space:normal}.v4-leaf-nav small{font-size:10px;line-height:1.7;text-align:left}.v4-leaf-nav progress{width:100%;height:5px;accent-color:#4f46e5}.v4-live-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:14px;margin-top:18px}.v4-tools textarea{width:100%;min-width:0}.v4-tools input,.v4-tools select{max-width:100%}.v4-tools p{line-height:1.85}.v4-tools .cw-question{margin:10px 0}.cw-question footer{flex-wrap:wrap}.published-courses .cw-tabs{flex-wrap:wrap}.dark .v4-tools{color:inherit}@media(max-width:600px){.v4-tools .form-grid{grid-template-columns:1fr}.v4-tools .cw-tabs button{font-size:11px}.v4-tools .cw-toolbar{flex-wrap:wrap}}
+/* V5.1: single admin navigation, no outer legacy/studio tab bar. */
+[data-admin-system="single-v5.1"]>.course-workbench{min-width:0}
+nav[aria-label="Admin tools"]{flex-wrap:wrap;gap:8px}
+.live-published-dates{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:12px 0 20px}
+.live-published-dates select{max-width:100%;min-width:0;padding:10px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:inherit}
+@media(max-width:600px){.live-published-dates select{width:100%}.live-date-bar{flex-wrap:wrap}}
+.routine-manager>.notice{display:block;line-height:1.85}.routine-manager>.notice p{margin-top:8px}

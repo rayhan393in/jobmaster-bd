@@ -1,0 +1,25 @@
+PASS 1 Unauthenticated courses endpoint denied
+PASS 2 Student admin boot rejected
+PASS 3 Cross-origin mutations rejected
+PASS 4 Both base courses persisted
+PASS 5 EEE scope dropdown excludes BCS subjects
+PASS 6 BCS scope excludes EEE subjects
+PASS 7 New course created as draft through UI
+PASS 8 Three-level hierarchy created through admin UI
+PASS 9 AI helper creates source-aware manual prompt without API key
+PASS 10 AI paste only updates editor draft
+PASS 11 Editor saves persistent draft question
+PASS 12 Manual approval persists
+PASS 13 Exact approved paper snapshot saved through UI
+PASS 14 CSV preview validates course leaf IDs
+PASS 15 CSV imported question immediately classified
+PASS 16 Server pagination accesses entire bank beyond latest 200
+PASS 17 Both/all course view queries server-side memberships
+PASS 18 Wrong-course approval rejected
+PASS 19 Published course available in real student catalog API
+PASS 20 Admin workspace fits 390px mobile viewport
+PASS 21 Student starts exact course/subtopic practice through UI
+PASS 22 Course identity and seven-minute server deadline persisted
+PASS 23 Independent course question excluded from physical BCS/EEE pools
+PASS 24 No browser JavaScript errors
+24 V3 browser/API checks passed. Local only.

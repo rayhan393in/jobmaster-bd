@@ -1,0 +1,46 @@
+
+> jobmaster@0.1.0 build
+> next build
+
+▲ Next.js 16.4.6 (Turbopack)
+✓ Running next.config.ts took 37ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1095ms
+  Running TypeScript ...
+  Finished TypeScript in 3.9s ...
+  Collecting page data using 1 worker ...
+  Generating static pages using 1 worker (0/7) ...
+  Generating static pages using 1 worker (1/7) 
+  Generating static pages using 1 worker (3/7) 
+  Generating static pages using 1 worker (5/7) 
+✓ Generating static pages using 1 worker (7/7) in 474ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /admin
+├ ○ /admin/setup
+├ ƒ /api/admin
+├ ƒ /api/admin-setup
+├ ƒ /api/admin/daywise
+├ ƒ /api/ai-helper
+├ ƒ /api/auth
+├ ƒ /api/courses
+├ ƒ /api/custom-exam
+├ ƒ /api/exam-pdf
+├ ƒ /api/exam-taxonomy
+├ ƒ /api/leaderboard
+├ ƒ /api/month-plan
+├ ƒ /api/pdf
+├ ƒ /api/schedule
+├ ƒ /api/syllabus
+├ ƒ /api/upgrade
+├ ƒ /api/workspace
+└ ƒ /auth/callback
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
