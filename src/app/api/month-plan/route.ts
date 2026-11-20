@@ -8,7 +8,9 @@ export async function GET(req:NextRequest){
   if(!cloudEnabled()){
    const {user}=await import('@/lib/auth');if(!user(req))return NextResponse.json({error:'লগইন করুন।'},{status:401});
    const {default:plans}=await import('@/lib/month-plan-preview.json');
-   return NextResponse.json({now:Date.now(),timezone:'Asia/Dhaka',plans,mode:'local-preview'},{headers:{'Cache-Control':'private, no-store'}});
+   const {db}=await import('@/lib/store');const exams=db.prepare("SELECT id,title,starts,ends,publish,duration FROM jm_exams WHERE track='BCS' ORDER BY starts DESC").all() as {id:string,title:string,starts:number,ends:number,publish:number,duration:number}[];
+   const linked=plans.map(p=>{const e=exams.find(e=>e.title===p.title);return e?{...p,starts:e.starts,ends:e.ends,publish:e.publish,duration:e.duration,exam_id:e.id}:p;});
+   return NextResponse.json({now:Date.now(),timezone:'Asia/Dhaka',plans:linked,mode:'local-preview'},{headers:{'Cache-Control':'private, no-store'}});
   }
   const c=cloudClient(req);const {data:{user}}=await c.client.auth.getUser();if(!user)return c.respond({error:'লগইন করুন।'},401);
   const {data,error}=await c.client.rpc('jobmaster_calendar');

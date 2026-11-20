@@ -1,0 +1,5 @@
+'use client';
+import {useState} from 'react';
+import {Download,CalendarDays} from 'lucide-react';
+import {downloadFile} from '@/lib/download';
+export default function SmartRoutineCard(){const [busy,setBusy]=useState(false),[error,setError]=useState('');return <section className="smart-routine-card card"><div className="smart-routine-icon"><CalendarDays size={34}/></div><div><span className="hub-kicker">YOUR 30-DAY ROADMAP</span><h2>Smart Routine · প্রস্তুতির পূর্ণ পরিকল্পনা</h2><p>৩০ দিনের বিষয়–টপিক, ৩০টি Daily + ৪টি Weekly, বাংলাদেশ সময় ও পড়ার গাইডলাইন—এক PDF-এ।</p><small>আজকের বিষয় ও পরীক্ষা Live Exam পাতায় পাবেন। Daily ৭টা–১০টা; সর্বোচ্চ ৪০ মিনিট। Weekly নিজস্ব সময়।</small>{error?<p role="alert" className="incorrect">{error}</p>:null}</div><button className="primary" disabled={busy} onClick={async()=>{setBusy(true);setError('');try{await downloadFile('/api/pdf?type=smart-routine&track=BCS','JobMaster-Smart-Routine.pdf');}catch(e){setError((e as Error).message);}finally{setBusy(false);}}}><Download size={17}/>{busy?'তৈরি হচ্ছে…':'রুটিন PDF ডাউনলোড'}</button></section>;}

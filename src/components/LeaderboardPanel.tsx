@@ -1,0 +1,12 @@
+'use client';
+import {useEffect,useState} from 'react';
+import {Trophy,RefreshCw} from 'lucide-react';
+import {readJson} from '@/lib/http';
+import {Exam} from './ExamCenter';
+type Row={name:string,score:number,correct:number,rank:number};
+export default function LeaderboardPanel({track,exams}:{track:string,exams:Exam[]}){
+ const [selected,setSelected]=useState(''),[rows,setRows]=useState<Row[]>([]),[title,setTitle]=useState(''),[pending,setPending]=useState(false),[error,setError]=useState(''),[refresh,setRefresh]=useState(0),[now,setNow]=useState(Date.now());
+ useEffect(()=>{let active=true;async function load(){try{const r=await fetch('/api/leaderboard?track='+track+(selected?'&exam='+selected:''),{cache:'no-store'});const d=await readJson(r);if(!r.ok)throw Error(d.error);if(active){setRows(d.rows||[]);setTitle(d.title||'');setPending(!!d.pending);setError('');setNow(d.now||Date.now());}}catch(e){if(active)setError((e as Error).message);}}load();const t=setInterval(load,60000);return()=>{active=false;clearInterval(t);};},[track,selected,refresh]);
+ useEffect(()=>setSelected(''),[track]);
+ return <section className="rank-panel card" aria-label="প্রকৃত Top 5 leaderboard"><div className="section-head"><div><span className="hub-kicker">REAL RESULTS · TOP FIVE</span><h2><Trophy size={19}/> সেরা পাঁচ পরীক্ষার্থী</h2></div><button aria-label="Leaderboard refresh" onClick={()=>setRefresh(x=>x+1)}><RefreshCw size={16}/></button></div><div className="rank-controls"><select aria-label="Leaderboard পরীক্ষা" value={selected} onChange={e=>setSelected(e.target.value)}><option value="">সর্বশেষ প্রকাশিত ফলাফল</option>{exams.filter(e=>e.publish<=now).sort((a,b)=>b.publish-a.publish).map(e=><option value={e.id} key={e.id}>{e.title}</option>)}</select>{title?<p>{title}</p>:null}</div>{error?<div className="notice" role="alert">{error}</div>:pending?<div className="rank-empty">পরীক্ষা শেষ ও নির্ধারিত প্রকাশসময়ের পরে ফল দেখা যাবে।</div>:rows.length?<ol className="rank-list">{rows.map((r,i)=><li key={i}><span className={'rank-medal rank-'+r.rank}>{r.rank}</span><div><b>{r.name}</b><small>{r.correct}টি সঠিক উত্তর</small></div><strong>{r.score}<small>নম্বর</small></strong></li>)}</ol>:<div className="rank-empty"><Trophy size={30}/><b>ফল প্রকাশ হলে এখানেই Top 5</b><p>এখনও প্রকাশিত পরীক্ষার্থীর ফল নেই। কোনো নমুনা rank দেখানো হচ্ছে না।</p></div>}<div className="rank-foot">প্রকৃত submitted ফল · স্কোর বেশি হলে আগে; সমান স্কোরে আগে শুরু করা attempt আগে। প্রতি মিনিটে Refresh।</div></section>;
+}
