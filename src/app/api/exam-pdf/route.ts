@@ -1,0 +1,23 @@
+import {NextRequest,NextResponse} from 'next/server';
+import {cloudEnabled} from '@/lib/cloud/config';
+import {cloudClient} from '@/lib/cloud/client';
+import {chromium} from 'playwright';
+import {readFile} from 'node:fs/promises';
+import path from 'node:path';
+export const runtime='nodejs';export const dynamic='force-dynamic';export const maxDuration=60;
+const esc=(x:unknown)=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
+type Q={q:string,o:string[],a?:number,e?:string};
+export async function GET(req:NextRequest){let browser;try{
+ const id=req.nextUrl.searchParams.get('attempt');if(!id||id.length>100)return NextResponse.json({error:'Attempt ID required'},{status:400});
+ const includeAnswers=req.nextUrl.searchParams.get('answers')==='1';let data;let apply=(r:NextResponse)=>r;
+ if(cloudEnabled()){const c=cloudClient(req);apply=c.apply;const check=await c.client.rpc('jobmaster_action',{p:{action:'pdf',track:'BCS'}});if(check.error)return c.respond({error:check.error.message},check.error.message.includes('Unauthorized')?401:429);const r=await c.client.rpc('jobmaster_action',{p:{action:'attempt',id}});if(r.error)return c.respond({error:r.error.message},404);data=r.data;}
+ else{const {user,rateLimit}=await import('@/lib/auth');const u=user(req);if(!u)return NextResponse.json({error:'Unauthorized'},{status:401});if(!rateLimit('pdf:'+u.id,8))return NextResponse.json({error:'Please wait before creating another PDF'},{status:429});const {GET}=await import('@/lib/local/workspace');const url=new URL(req.url);url.searchParams.set('attempt',id);const r=await GET(new NextRequest(url,{headers:req.headers}));if(!r.ok)return r;data=await r.json();}
+ if(includeAnswers&&(!data.submitted||!data.review||!data.result))return apply(NextResponse.json({error:'ফলাফল প্রকাশের আগে উত্তরপত্র পাওয়া যাবে না।'},{status:403}));
+ const qs:Q[]=includeAnswers?data.review:data.questions;const answers:Record<number,number>={};for(const a of data.answers||[])answers[a.question]=a.choice;
+ const result=data.result;const summary=includeAnswers?`<div class="summary">নম্বর: ${esc(result.score)} / ${esc(result.total)} · সঠিক: ${esc(result.correct)} · ভুল: ${esc(result.answered-result.correct)} · অনুত্তরিত: ${esc(result.total-result.answered)}<p>সঠিক × ১ − ভুল × ০.৫</p></div>`:'';
+ const content=qs.map((q,i)=>`<article><h3>${i+1}. ${esc(q.q)}</h3><div class="choices">${q.o.map((o,c)=>`<p>${'ABCD'[c]}. ${esc(o)}</p>`).join('')}</div>${includeAnswers?`<div class="explanation"><b>আপনার উত্তর: ${answers[i]===undefined?'অনুত্তরিত':esc(q.o[answers[i]])} · সঠিক: ${esc(q.o[q.a!])}</b><p>${esc(q.e)}</p></div>`:''}</article>`).join('');
+ const font=await readFile(path.join(process.cwd(),'public/fonts/NotoSansBengali-Regular.ttf'));
+ if(process.env.VERCEL){const sc=(await import('@sparticuz/chromium')).default;browser=await chromium.launch({args:sc.args,executablePath:await sc.executablePath(),headless:true});}else browser=await chromium.launch({headless:true,args:['--no-sandbox']});
+ const page=await browser.newPage();await page.setContent(`<!doctype html><html lang="bn"><meta charset="utf-8"><style>@font-face{font-family:Bangla;src:url(data:font/ttf;base64,${font.toString('base64')})}body{font:11px Bangla,sans-serif;color:#18243d}h1{font-size:24px}h2{font-size:17px}h3{font-size:12px;line-height:1.8}article{padding:12px 0;border-bottom:1px solid #ddd;break-inside:avoid}.choices{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}.choices p{margin:4px 0}.summary,.explanation{background:#f2f4fb;padding:12px;line-height:1.9}.explanation{margin-top:10px}small{color:#667085;overflow-wrap:anywhere}</style><h1>JobMaster BD</h1><h2>${includeAnswers?'ফলাফল, উত্তরপত্র ও ব্যাখ্যা':'পরীক্ষার প্রশ্নপত্র'}</h2><small>Attempt: ${esc(id)} · ${qs.length} প্রশ্ন · Bangladesh time: ${esc(new Date().toLocaleString('bn-BD',{timeZone:'Asia/Dhaka'}))}</small>${summary}${content}</html>`);await page.evaluate(()=>document.fonts.ready);const pdf=await page.pdf({format:'A4',printBackground:true,margin:{top:'15mm',bottom:'18mm',left:'16mm',right:'16mm'},displayHeaderFooter:true,headerTemplate:'<span></span>',footerTemplate:'<div style="font-size:9px;width:100%;text-align:center">JobMaster BD · <span class="pageNumber"></span> / <span class="totalPages"></span></div>'});
+ return apply(new NextResponse(new Uint8Array(pdf),{headers:{'Content-Type':'application/pdf','Content-Disposition':`attachment; filename="JobMaster-${includeAnswers?'Answers':'Questions'}.pdf"`,'Cache-Control':'private, no-store'}}));
+ }catch(e){console.error('Exam PDF failed',e);return NextResponse.json({error:'PDF তৈরি হয়নি। Server Chromium configuration পরীক্ষা করুন।'},{status:500});}finally{await browser?.close();}}
