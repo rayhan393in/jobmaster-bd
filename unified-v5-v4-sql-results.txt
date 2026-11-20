@@ -1,0 +1,55 @@
+PASS 1 V3 migration installs and reruns
+PASS 2 Migration preserves questions, provenance, approval
+PASS 3 V4 migration installs twice
+PASS 4 PetroBangla nested under EEE
+PASS 5 No copied/padded questions in PetroBangla bank
+PASS 6 Student denied admin boot
+PASS 7 Student cannot add category
+PASS 8 Student cannot use AI provider
+PASS 9 Student can read published nesting
+PASS 10 Direct snapshots protected by privileges/RLS
+PASS 11 Admin creates dynamic exam category
+PASS 12 Admin renames category
+PASS 13 Root hierarchy immutable
+PASS 14 Cycle rejected
+PASS 15 Six manual draft questions saved to own hierarchy
+PASS 16 EEE general bank does not include PetroBangla
+PASS 17 Pending drafts cannot be scheduled
+PASS 18 Subject/topic hierarchical practice starts without requiring leaf
+PASS 19 Forged topic does not fall back to mixed course pool
+PASS 20 Admin Both view contains only BCS/EEE, not independent custom courses
+PASS 21 Past schedule rejected
+PASS 22 Invalid marks rejected
+PASS 23 Invalid duration rejected
+PASS 24 Invalid mapping rejected
+PASS 25 Daily exam saved with approved snapshot
+PASS 26 Two weekly occurrences saved atomically
+PASS 27 Course-filtered schedules list
+PASS 28 Weekly spacing is seven Dhaka calendar days
+PASS 29 Marks and duration persisted
+PASS 30 Insufficient reserved bank rolls back whole recurrence
+PASS 31 No partial schedules on failed recurrence
+PASS 32 Server rejects early entry
+PASS 33 Student cannot schedule
+PASS 34 Student BCS schedules do not leak PetroBangla
+PASS 35 Student schedule response has no answers or question IDs
+PASS 36 Future cancel retained as audit history
+PASS 37 Cancelled exams hidden from students
+PASS 38 Future exam editable with new marks
+PASS 39 Scheduled snapshot immutable after source edit
+PASS 40 Student starts during server window
+PASS 41 One attempt idempotent resume
+PASS 42 Existing attempt API hides live answers
+PASS 43 Live result hidden before end
+PASS 44 After end real grade and snapshot review published
+PASS 45 Started/ended exam cannot be edited
+PASS 46 Started/ended exam cannot be cancelled
+PASS 47 Soft deleted row hidden from paged review
+PASS 48 Soft delete preserves underlying question
+PASS 49 Deleted custom question cannot appear through Both/all filtering
+PASS 50 Restore returns draft requiring review
+PASS 51 Cross-course deletion denied
+PASS 52 Gemini authorization rate limited separately
+PASS 53 Existing BCS/EEE data and provenance untouched by V4 workflow
+PASS 54 Anonymous RPC denied
+54 V4 PostgreSQL checks passed; disposable database, not production.

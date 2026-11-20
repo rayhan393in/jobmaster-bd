@@ -1,0 +1,7 @@
+PASS 1 V3 migration installs and reruns
+PASS 2 Migration preserves questions, provenance, approval
+PASS 3 Exact shipped V4+V5 installer works twice after V3
+PASS 4 Installer preserves all 34 original routine records
+PASS 5 Full installer preserves existing question data
+PASS 6 Both API RPCs present; original missing schema-cache function resolved by installer
+6 installer checks passed.

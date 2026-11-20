@@ -1,0 +1,18 @@
+PASS Custom migration installs and reruns safely
+PASS Unauthenticated RPC denied
+PASS Unverified bank is not offered as custom practice
+PASS Catalog counts reflect verified BCS pool
+PASS Catalog reveals no answer keys or question bodies
+PASS Insufficient count rejected without smaller fallback
+PASS Invalid duration rejected
+PASS Duplicate topic request rejected
+PASS Exact requested count selected
+PASS Existing attempt engine hides answers
+PASS Custom time is persisted server-side
+PASS Custom exam scoring uses existing correct/wrong negative marking
+PASS Custom attempts remain user-scoped
+PASS Future reserved daywise paper excluded even when verified
+PASS Real topic labels read from stored source metadata
+PASS Named-topic selection creates exact paper
+PASS Anonymous role cannot execute custom RPC
+17 checks passed. Local PGlite only; hosted project untouched.

@@ -1,0 +1,15 @@
+import {PGlite} from '@electric-sql/pglite';import fs from 'node:fs';import assert from 'node:assert/strict';
+const db=new PGlite();let checks=0;const ok=(v,s)=>{assert.ok(v,s);checks++;console.log('PASS',s)};
+await db.exec(`create role anon;create role authenticated;create role service_role;create schema auth;create table auth.users(id uuid primary key,email text,raw_user_meta_data jsonb);create function auth.uid() returns uuid language sql stable as $$select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid$$;`);
+for(const p of ['deployment/STEP-5-SUPABASE.sql','deployment/updates/BCS-Auto-Routine-Setup.sql','deployment/updates/BCS-Daywise-Import.sql'])await db.exec(fs.readFileSync(p,'utf8'));
+await db.exec(`create or replace function jobmaster_private.now_ms() returns bigint language sql volatile as $$select 1795096800000::bigint$$`);
+const sql=fs.readFileSync('/home/user/downloads/BCS-Day01-50-Questions.sql','utf8');await db.exec(sql);ok(true,'Complete SQL executes against existing schema');
+let r=(await db.query(`select count(*)::int n,count(*) filter(where q.verified)::int verified,count(*) filter(where s.reviewed_hash is not null)::int reviewed from jobmaster_private.bcs_plan_questions l join jobmaster_private.questions q on q.id=l.question_id join jobmaster_private.bcs_question_sources s on s.plan_id=l.plan_id and s.question_id=l.question_id`)).rows[0];ok(r.n===50&&r.verified===0&&r.reviewed===0,'50 draft questions, none falsely verified');
+r=(await db.query(`select metadata->>'source_type' typ,count(*)::int n from jobmaster_private.bcs_question_sources group by 1`)).rows;ok(r.every(v=>v.n===25)&&r.length===2,'25 previous + 25 book');
+r=(await db.query(`select metadata->>'difficulty' typ,count(*)::int n from jobmaster_private.bcs_question_sources group by 1`)).rows;ok(r.find(x=>x.typ==='standard').n===45&&r.find(x=>x.typ==='easy').n===2&&r.find(x=>x.typ==='hard').n===3,'45 standard + 2 easy + 3 hard');
+r=(await db.query(`select metadata->>'section' typ,count(*)::int n from jobmaster_private.bcs_question_sources group by 1`)).rows;ok(r.find(x=>x.typ==='বাংলা').n===20&&r.find(x=>x.typ==='গণিত').n===20&&r.find(x=>x.typ==='baseline').n===10,'20 Bangla + 20 math + 10 baseline');
+await db.exec(sql);ok((await db.query('select count(*)::int n from jobmaster_private.bcs_plan_questions')).rows[0].n===50,'Identical rerun is idempotent');
+await db.exec(`update jobmaster_private.questions set data=jsonb_set(data,'{e}','"Changed for test only"') where id='bcs-d01-20261120-01'`);
+let failed=false;try{await db.exec(sql)}catch{failed=true;await db.exec('rollback')};ok(failed,'Changed existing paper is not overwritten');
+ok((await db.query('select count(*)::int n from jobmaster_private.exams')).rows[0].n===0,'No exam published automatically');
+await db.close();console.log(checks+' checks passed. Hosted project untouched.');

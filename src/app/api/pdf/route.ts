@@ -12,7 +12,7 @@ export async function GET(req:NextRequest){let apply=(r:NextResponse)=>r;try{
  let title='',sections:PdfSection[]=[];
  if(type==='smart-routine'){
   const {GET}=await import('@/app/api/month-plan/route');const r=await GET(req);if(!r.ok)return r;const calendar=await r.json();
-  title='BCS Smart Routine · ৩০ দিনের পরিকল্পনা';sections.push({title:'প্রস্তুতির নিয়ম',lines:['প্রতিদিন ৫ ঘণ্টা: মূল বিষয় ১২০ মিনিট + দ্বিতীয় বিষয় ১২০ মিনিট + revision ও ভুলের খাতা ৬০ মিনিট।','Daily পরীক্ষার প্রবেশসময় সন্ধ্যা ৭টা–রাত ১০টা; সর্বোচ্চ ৪০ মিনিট, রাত ১০টায় hard close। ফল প্রকাশ রাত ১০টায়। Weekly পরীক্ষার নিজস্ব সময় নিচে দেখুন।','এটি নিজস্ব প্রস্তুতি পরিকল্পনা, official BPSC syllabus নয়। প্রশ্ন review ও publish না হলে অংশ নেওয়া যাবে না।']});
+  title='BCS Smart Routine · প্রকাশিত পরিকল্পনা';sections.push({title:'প্রস্তুতির নিয়ম',lines:['প্রতিদিন ৫ ঘণ্টা: মূল বিষয় ১২০ মিনিট + দ্বিতীয় বিষয় ১২০ মিনিট + revision ও ভুলের খাতা ৬০ মিনিট।','পরীক্ষার প্রবেশসময়, duration, marks ও ফলপ্রকাশ Admin নির্ধারিত; প্রতিটি পরীক্ষার সময় নিচে দেখুন।','এটি নিজস্ব প্রস্তুতি পরিকল্পনা, official BPSC syllabus নয়। প্রশ্ন review ও publish না হলে অংশ নেওয়া যাবে না।']});
   const time=(ms:number)=>new Date(ms).toLocaleTimeString('bn-BD',{timeZone:'Asia/Dhaka',hour:'numeric',minute:'2-digit'});
   for(const p of calendar.plans||[])sections.push({title:`${p.date} · ${p.title}`,lines:[`বিষয় ও টপিক: ${p.topics}`,`প্রবেশসময়: ${time(p.starts)}–${time(p.ends)} · সময়: ${p.duration/60} মিনিট · নম্বর: ${p.marks}`,`ফল প্রকাশ: ${time(p.publish)} · ${p.exam_id?'প্রকাশিত প্রশ্নপত্র':'প্রশ্ন প্রস্তুতি / প্রকাশ বাকি'}`,'গাইডলাইন: তালিকার প্রতিটি টপিকের ধারণা পড়ুন → উদাহরণ সমাধান করুন → আগের ভুলগুলো revision দিন → পরীক্ষার পরে ব্যাখ্যা মিলিয়ে ভুলের খাতা আপডেট করুন।']});
  }else if(type==='result'){

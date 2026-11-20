@@ -1,0 +1,26 @@
+PASS Taxonomy migration installs and reruns safely before old mapping patch
+PASS Question content, sources, answers and approval flags untouched
+PASS Existing imported model IDs get canonical leaf assignments
+PASS 10 BCS and 15 EEE subjects installed
+PASS SQL and frontend taxonomy have same 227 parent topics
+PASS No identity cannot read catalog
+PASS Drafts remain unavailable after migration
+PASS Student cannot read admin assignments
+PASS Parent counts count each usable question once
+PASS Leaf counts reconcile with parent counts
+PASS Catalog does not expose answer-bearing data
+PASS Real Numbers parent has expected 24 questions
+PASS Parent topic creates exact 5-question paper
+PASS Server deadline and unique IDs persisted
+PASS Parent and child overlap rejected on server
+PASS Disjoint subtopics can be combined
+PASS Cross-track IDs cannot select BCS questions
+PASS Insufficient pool rejected; no smaller fallback
+PASS Future routine-reserved question excluded from all groups
+PASS Future scheduled-exam question excluded
+PASS Admin classification enforces track consistency
+PASS Classification change resets verification
+PASS Admin assignment persisted
+PASS Browser role cannot read private assignment table
+PASS Anonymous role cannot execute custom exam RPC
+25 taxonomy SQL checks passed. Disposable PostgreSQL only.

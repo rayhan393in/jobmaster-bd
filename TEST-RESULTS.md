@@ -116,3 +116,28 @@ See README.md for deployment assumptions and the full limitation list.
   execute the supplied setup SQL and complete configuration and live smoke tests.
 - After backend-dispatch refactoring, re-ran local suites: 43 integration assertions,
   student browser suite and admin setup/create/edit/logout/login/error-handling suite all PASS.
+
+## Automatic monthly routine UI update
+
+- Added `/api/month-plan` with authenticated Supabase RPC and separate labeled local fixture.
+- Added live data calendar to Study Routine, Live Exam and Admin Schedule pages.
+- Calendar shows all 30 daily / 4 weekly planned slots, subject/topics, dates, Bangladesh
+  times and marks, even when papers are still drafts. Polls data every 60 seconds.
+- Draft entries are never displayed as live/enterable exams; published entry calls
+  the existing server-validated exam engine.
+- New SQL includes an authenticated read-only calendar RPC, and a once-per-minute
+  ready-paper publisher job when existing pg_cron is available. Publication still
+  requires manual topic-match review and exactly 50/100 verified BCS links.
+- `node tests/month-plan-sql.mjs`: **23 PostgreSQL-engine checks PASS**, including
+  draft visibility, exact counts/timezone, ownership/execute denial, no key/ID leakage,
+  publication checks, same-day reuse denial and idempotency. Hosted cron not tested.
+- `node tests/month-calendar-browser.mjs`: PASS — 30-day / 34-slot auto-load,
+  weekly filter, subject names, no draft entry button, 390px layout, no JS errors.
+- Original 43 local integration assertions: PASS after UI changes.
+- Production build: PASS. User's hosted Supabase/Vercel still requires applying SQL
+  and deploying the five-file update; no remote deployment by the assistant claimed.
+
+## Daywise source-aware import update
+- 22 disposable PostgreSQL workflow/security checks PASS: admin authorization, quota/counts, required provenance fields, duplicates, atomic import/link, unverified defaults, cron publication blocked before review, explicit review, content-change invalidation, final publication and published locks.
+- Production build PASS. Dedicated admin browser regression + new tab/local-mode honest failure PASS. Existing 43 integration checks PASS after restarting freshly built server.
+- No real question set included or imported; no live Supabase/Vercel changes. Hosted end-to-end and real-source validity not tested. Header/source metadata are not proof of historical exam provenance; human source/answer/topic review remains required.

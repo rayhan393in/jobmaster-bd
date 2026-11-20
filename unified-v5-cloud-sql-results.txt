@@ -1,0 +1,34 @@
+PASS Migration schema + seed executes on PostgreSQL engine
+PASS Migration re-run is non-destructive
+PASS Anonymous RPC execution denied
+PASS Client metadata cannot grant admin
+PASS Private tables and answer keys denied
+PASS Student admin RPC denied
+PASS BCS routine and 30 questions
+PASS Second user data isolated
+PASS Foreign task mutation denied
+PASS Topic completion persists
+PASS Unknown topic rejected
+PASS Attempt hides keys
+PASS Foreign attempt denied
+PASS Answer autosave
+PASS Transactional negative-mark scoring
+PASS Duplicate submission idempotent
+PASS Post-submit write denied
+PASS Bookmark practice
+PASS Wrong-answer revision
+PASS EEE questions separated
+PASS Expired attempt finalizes server-side
+PASS Admin list and counts
+PASS Early exam start denied
+PASS Scheduled attempt uniqueness
+PASS Scheduled result embargo
+PASS GET review embargo
+PASS Leaderboard embargo
+PASS Real leaderboard publication
+PASS Duplicate fingerprint enforced
+PASS Editing resets verification
+PASS Explanation required
+PASS Previous source required
+
+32 cloud PostgreSQL checks passed. Hosted Supabase Auth/network not tested.

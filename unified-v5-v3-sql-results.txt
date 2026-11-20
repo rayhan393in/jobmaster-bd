@@ -1,0 +1,49 @@
+PASS 1 V3 migration installs and reruns
+PASS 2 Migration preserves questions, provenance, approval
+PASS 3 Unauthenticated denied
+PASS 4 Student cannot access admin boot
+PASS 5 Student cannot create courses
+PASS 6 Students see published BCS/EEE
+PASS 7 Private membership table denied
+PASS 8 Editable tree seeded from all legacy taxonomy
+PASS 9 All existing SQL questions discoverable, including unclassified
+PASS 10 Draft course invisible to students
+PASS 11 Draft course cannot start
+PASS 12 Create full independent course taxonomy
+PASS 13 Cross-course hierarchy rejected
+PASS 14 Wrong parent depth rejected
+PASS 15 Cross-course rename rejected
+PASS 16 Rename preserves stable ID
+PASS 17 New course question isolated
+PASS 18 New question draft
+PASS 19 Custom course uses its own physical track, not legacy EEE
+PASS 20 BCS does not show EEE-backed custom course
+PASS 21 Cross-course editing rejected
+PASS 22 Cross-course verify rejected
+PASS 23 Cross-course subtopic assignment rejected
+PASS 24 Draft questions excluded from paper
+PASS 25 Exact paper snapshot persisted
+PASS 26 Insufficient question count fails; no fallback
+PASS 27 Duplicate leaf selections rejected
+PASS 28 Editing resets approval
+PASS 29 Provenance preserved on edit
+PASS 30 Saved paper immutable after question edit
+PASS 31 Invalid CSV import row rolls back batch
+PASS 32 No partial imported row remains
+PASS 33 Legacy partial update preserves source and batch metadata
+PASS 34 Direct SQL IDs auto-sync into course and subtopic
+PASS 35 Explicit shared link preserves original course identity
+PASS 36 Shared content edits must use owning course
+PASS 37 Shared membership classification does not move owner taxonomy
+PASS 38 Legacy content edit cannot undo newer classification using stale metadata
+PASS 39 Published custom course visible to student
+PASS 40 Published catalog contains dynamic taxonomy and approved counts only
+PASS 41 Student cannot forge a different course subtopic
+PASS 42 Student practice session starts from published course
+PASS 43 Existing attempt API serves course session without answer leakage
+PASS 44 Server-authoritative time and exact course snapshot
+PASS 45 Student cannot read admin answer-bearing paper
+PASS 46 Wrong course cannot fetch paper
+PASS 47 Second active attempt rejected
+PASS 48 Anonymous cannot execute catalog RPC
+48 V3 SQL checks passed. Disposable PostgreSQL only.

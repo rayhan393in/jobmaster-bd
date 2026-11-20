@@ -1,0 +1,11 @@
+PASS Custom catalog requires authentication
+PASS Custom catalog returns actual available pool
+PASS Cross-origin custom creation rejected
+PASS Insufficient question count rejected
+PASS Duplicate topic payload rejected
+PASS Invalid track rejected
+PASS Exact count API attempt creation
+PASS Foreign attempt PDF denied
+PASS Anonymous PDF denied
+PASS Scheduled result embargo also enforced in answer PDF route
+10 custom API checks passed.

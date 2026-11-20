@@ -1,0 +1,31 @@
+PASS 1 Anonymous schedule denied
+PASS 2 Student admin writes denied
+PASS 3 Schedule cross-origin blocked
+PASS 4 Same bank manual input and review actually persisted
+PASS 5 New routine default 100 marks
+PASS 6 New daily default 18:00 Dhaka
+PASS 7 Manual routine saved without fake exam
+PASS 8 Same routine publishes real existing-engine exam
+PASS 9 Manual live exam time edit changes database, no code/deploy
+PASS 10 Routine SQL rejects extra arbitrary statement
+PASS 11 Routine SQL mapping preview valid
+PASS 12 SQL weekly100 saved and published routine
+PASS 13 Manual remove is soft delete
+PASS 14 Routine restore works
+PASS 15 Weekly cannot publish 100 marks from insufficient approved bank
+PASS 16 Incomplete exam remains routine only
+PASS 17 Unified admin fits 390px mobile
+PASS 18 ONE live exam page, no extra V4 panel
+PASS 19 Same exam shown once
+PASS 20 Unpublished weekly paper not shown as live exam
+PASS 21 Exam course tab exists only with published exam
+PASS 22 OLD exam interface opens exact one-question paper
+PASS 23 Real persisted attempt with server deadline
+PASS 24 Answer keys hidden in exam API
+PASS 25 Submit saves exam and embargoes result
+PASS 26 After-end real score and full review
+PASS 27 Existing answer-sheet PDF still downloads
+PASS 28 SQL-published preparation routine appears in student study calendar
+PASS 29 Unified student live page fits mobile
+PASS 30 No browser JavaScript errors
+30 Unified V5 browser/API checks passed.

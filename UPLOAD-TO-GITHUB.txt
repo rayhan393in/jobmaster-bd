@@ -1,0 +1,24 @@
+JOBMASTER UNIFIED V5 — FULL SOURCE, NOT JUST A PATCH
+
+READ START-HERE-V5-BN.md FIRST. It supersedes the V4 deployment guide.
+
+1. Back up existing GitHub source and hosted Supabase database.
+2. In the SAME Supabase project used by Vercel, run the WHOLE root file:
+   UPDATE-SUPABASE.sql
+   It includes V4 prerequisite + V5 + schema cache reload, and requires existing V3.
+   Do NOT rerun STEP-5, seed or old routine setup against your live data.
+3. Extract this ZIP and MERGE THE EXTRACTED FILES into your existing repository.
+   package.json must be at repository root. Uploading just this ZIP does not deploy code.
+4. Keep Vercel JOBMASTER_BACKEND=supabase and the correct existing Supabase env values.
+   No new mandatory Vercel variable. Gemini optional. Commit/redeploy and wait for Ready.
+5. /admin should show ADMIN WORKSPACE · V5.
+   Course → Routine / Live / Import / AI → Routine & Live Exams.
+6. Routine/question/time changes after this installation use Admin/SQL, not GitHub edits.
+
+Future exam times can be edited while unattempted. Started/attempted exams are locked.
+100 marks needs 100 approved, unreserved questions from the selected course scope.
+Student uses ONE Live Exam page and the existing exam interface.
+
+Source tested locally and on disposable PostgreSQL. No hosted deployment performed.
+Hosted smoke-test instructions, limits and actual test logs are in the V5 guide.
+ZIP excludes secrets, .env.local, SQLite database, node_modules and build output.

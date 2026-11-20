@@ -1,0 +1,45 @@
+PASS Anonymous workspace rejected
+PASS Anonymous admin rejected
+PASS Registration 0
+PASS Registration 1
+PASS Authenticated profile
+PASS Student admin API rejected
+PASS Routine generation
+PASS User routine isolation
+PASS Foreign task mutation prevented
+PASS Track routine isolation
+PASS BCS editorial outline labeled honestly
+PASS EEE fifteen-subject outline
+PASS Topic completion saved
+PASS Topic progress user isolation
+PASS Unknown topic rejected
+PASS Thirty BCS questions
+PASS Answer keys hidden
+PASS Foreign attempt read prevented
+PASS Foreign submission prevented
+PASS Answer persistence / resume
+PASS Correct scoring and negative mark
+PASS Idempotent submission
+PASS Post-submission lock
+PASS Thirty EEE questions
+PASS EEE content isolated
+PASS Expired attempt finalized without browser request
+PASS Bookmark practice
+PASS Incorrect question revision
+PASS Real downloadable routine PDF
+PASS Real downloadable result PDF
+PASS Explicitly provisioned admin allowed
+PASS CSV preview validates
+PASS In-file duplicate detection
+PASS Invalid import blocked
+PASS Verified question exam scheduling
+PASS Early exam start blocked
+PASS Exam starts within server window
+PASS One scheduled attempt per student
+PASS Result embargo enforced
+PASS Review embargo enforced on GET
+PASS Leaderboard embargo
+PASS Real published leaderboard
+PASS Logout invalidates session
+
+43 integration checks passed.

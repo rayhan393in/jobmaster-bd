@@ -1,0 +1,45 @@
+PASS 1 V3 migration installs and reruns
+PASS 2 Migration preserves questions, provenance, approval
+PASS 3 V4 migration installs twice
+PASS 4 V5 migration rerunnable
+PASS 5 All 34 existing routine rows retained
+PASS 6 Historical 50-mark plans preserved, new default not destructive
+PASS 7 Student denied admin routine list
+PASS 8 Student denied manual routine write
+PASS 9 Student sees published legacy routines in unified calendar
+PASS 10 Private cancel table protected
+PASS 11 Legacy calendar RPC respects unified routine unpublish
+PASS 12 Manual routine persisted
+PASS 13 Published routine visible without falsely showing exam
+PASS 14 Cannot publish paper without approved bank
+PASS 15 Unknown course rejected
+PASS 16 Past routine rejected
+PASS 17 Marks bounded
+PASS 18 Duration bounded
+PASS 19 Cross-course edit denied
+PASS 20 Unpublish hides routine
+PASS 21 Remove keeps archived row
+PASS 22 Removed routine not leaked
+PASS 23 Restore recovers routine
+PASS 24 SQL parsed row batch supports weekly100/daily50
+PASS 25 Invalid import batch rolls back
+PASS 26 No partial routine import
+PASS 27 Routine publishes real exam using existing bank
+PASS 28 One exam card, no legacy/new duplicate
+PASS 29 Course bank identity retained
+PASS 30 Manual time/duration edit updates actual exam table, not UI only
+PASS 31 Published question count cannot silently mismatch marks
+PASS 32 Must cancel/unlink published exam before routine removal
+PASS 33 Future exam cancelled and routine unlinked
+PASS 34 Cancelled old exam never reappears as standalone
+PASS 35 Republish uses new exam, old history retained
+PASS 36 Unpublished routine guards even direct V4 live entry
+PASS 37 OLD exam start API runs unified custom-course paper
+PASS 38 Existing answer UI API hides answers
+PASS 39 Early submit hides result until end
+PASS 40 Attempted exam time edit blocked
+PASS 41 Attempted exam cancellation blocked
+PASS 42 Existing result/review works after publish
+PASS 43 Existing BCS/EEE question data untouched
+PASS 44 Anonymous unified calendar denied
+44 Unified V5 PostgreSQL checks passed.
