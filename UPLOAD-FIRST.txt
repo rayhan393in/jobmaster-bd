@@ -1,0 +1,6 @@
+Existing V5 installation update only. No SQL needed if V5 installed.
+Extract. Open extracted folder. Drag the src FOLDER into GitHub Add file > Upload files at repository ROOT (where package.json is). Do not upload enclosing folder or ZIP.
+Review changed paths before commit: src/components/AdminCenter.tsx etc. NOT JobMaster-V5.1-Replace-Files/src/... and NOT src/src/...
+Commit to the branch connected to Vercel. Wait for NEW commit deployment Ready.
+Admin must show V5.1 and no outer Course Studio menu. If not, check deployment commit and branch.
+10 source files: 8 changed UI files plus 2 existing required schedule modules. No data/dependency/secret changes.

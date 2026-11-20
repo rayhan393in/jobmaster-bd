@@ -26,6 +26,7 @@ export default function Home(){
  const api=async(b:object)=>{const r=await fetch('/api/workspace',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(b)});const d=await readJson(r);if(!r.ok)throw Error(d.error);return d;};
  const load=()=>fetch('/api/workspace?track='+track).then(r=>r.json()).then(d=>{if(d.error){setToast(d.error);return;}setTasks(d.tasks);setResults(d.results);setProfile(d.user);setExams(d.exams);setQuestionCount(d.questionCount);setActiveSession(d.active?.id||'');setWeakness(d.weakness||[]);});
  useEffect(()=>{load();},[track]);
+ useEffect(()=>{if(new URLSearchParams(window.location.search).has('live_exam'))setPage('লাইভ পরীক্ষা');},[]);
  useEffect(()=>{if(toast){const t=setTimeout(()=>setToast(''),4000);return()=>clearTimeout(t);}},[toast]);
  async function submit(){if(submitting.current||savingRef.current>0)return;submitting.current=true;setBusy(true);try{const d=await api({action:'submit',id:attempt});setQs(d.review);setPaperResult(d.result);setModal(d.pending?'':'result');load();setToast(d.pending?'পরীক্ষা জমা হয়েছে। নির্ধারিত সময়ে ফলাফল প্রকাশ হবে।':`পরীক্ষা সম্পন্ন! আপনার স্কোর ${d.result.score}/${d.result.total}`);}catch(e){setToast(String(e));}finally{setBusy(false);submitting.current=false;}}
  useEffect(()=>{if(modal!=='exam')return;const t=setInterval(()=>{const n=Math.max(0,Math.ceil((deadline-Date.now())/1000));setRemaining(n);if(n===0)submit();},1000);return()=>clearInterval(t);});
