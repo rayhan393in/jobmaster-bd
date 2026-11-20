@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "BCS-MODEL-0001",
+    "old_subject": "বাংলা ভাষা ও সাহিত্য",
+    "old_topic": "ধ্বনি ও বর্ণ",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "topic": "ধ্বনি ও বর্ণ",
+    "chapter": "ব্যাকরণ"
+  },
+  {
+    "id": "BCS-MODEL-0002",
+    "old_subject": "বাংলা ভাষা ও সাহিত্য",
+    "old_topic": "ধ্বনিবিজ্ঞান",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "topic": "ধ্বনি ও বর্ণ",
+    "chapter": "ব্যাকরণ"
+  },
+  {
+    "id": "BCS-MODEL-0003",
+    "old_subject": "বাংলা ভাষা ও সাহিত্য",
+    "old_topic": "সন্ধি",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "topic": "সন্ধি",
+    "chapter": "ব্যাকরণ"
+  },
+  {
+    "id": "BCS-MODEL-0004",
+    "old_subject": "বাংলা ভাষা ও সাহিত্য",
+    "old_topic": "সমাস",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "topic": "সমাস",
+    "chapter": "ব্যাকরণ"
+  },
+  {
+    "id": "BCS-MODEL-0005",
+    "old_subject": "বাংলা ভাষা ও সাহিত্য",
+    "old_topic": "কারক",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "topic": "কারক ও বিভক্তি",
+    "chapter": "ব্যাকরণ"
+  },
+  {
+    "id": "BCS-MODEL-0006",
+    "old_subject": "বাংলা ভাষা ও সাহিত্য",
+    "old_topic": "বাক্য",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "topic": "বাক্য",
+    "chapter": "ব্যাকরণ"
+  },
+  {
+    "id": "BCS-MODEL-0007",
+    "old_subject": "বাংলা ভাষা ও সাহিত্য",
+    "old_topic": "বানান",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "topic": "শুদ্ধ বানান ও প্রয়োগ",
+    "chapter": "ব্যাকরণ"
+  },
+  {
+    "id": "BCS-MODEL-0008",
+    "old_subject": "বাংলা ভাষা ও সাহিত্য",
+    "old_topic": "প্রাচীন সাহিত্য",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "topic": "প্রাচীন যুগ ও চর্যাপদ",
+    "chapter": "সাহিত্য"
+  },
+  {
+    "id": "BCS-MODEL-0009",
+    "old_subject": "বাংলা ভাষা ও সাহিত্য",
+    "old_topic": "উপন্যাস",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "topic": "বিখ্যাত গ্রন্থ ও চরিত্র",
+    "chapter": "সাহিত্য"
+  },
+  {
+    "id": "BCS-MODEL-0010",
+    "old_subject": "বাংলা ভাষা ও সাহিত্য",
+    "old_topic": "কবিতা",
+    "subject": "বাংলা ভাষা ও সাহিত্য",
+    "topic": "কবি ও সাহিত্যিক",
+    "chapter": "সাহিত্য"
+  },
+  {
+    "id": "BCS-MODEL-0011",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Articles",
+    "subject": "English Language & Literature",
+    "topic": "Articles and determiners",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0012",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Subject–verb agreement",
+    "subject": "English Language & Literature",
+    "topic": "Subject-verb agreement",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0013",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Tense",
+    "subject": "English Language & Literature",
+    "topic": "Tense and aspect",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0014",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Conditionals",
+    "subject": "English Language & Literature",
+    "topic": "Clauses and phrases",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0015",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Prepositions",
+    "subject": "English Language & Literature",
+    "topic": "Prepositions",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0016",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Voice",
+    "subject": "English Language & Literature",
+    "topic": "Voice",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0017",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Vocabulary",
+    "subject": "English Language & Literature",
+    "topic": "Vocabulary, idioms and spelling",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0018",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Idioms",
+    "subject": "English Language & Literature",
+    "topic": "Vocabulary, idioms and spelling",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0019",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Drama",
+    "subject": "English Language & Literature",
+    "topic": "Major authors and works",
+    "chapter": "Literature"
+  },
+  {
+    "id": "BCS-MODEL-0020",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Poetry",
+    "subject": "English Language & Literature",
+    "topic": "Major authors and works",
+    "chapter": "Literature"
+  },
+  {
+    "id": "BCS-MODEL-0021",
+    "old_subject": "বাংলাদেশ বিষয়াবলি",
+    "old_topic": "ভাষা আন্দোলন",
+    "subject": "বাংলাদেশ বিষয়াবলি",
+    "topic": "ভাষা আন্দোলন",
+    "chapter": "ইতিহাস ও রাষ্ট্র"
+  },
+  {
+    "id": "BCS-MODEL-0022",
+    "old_subject": "বাংলাদেশ বিষয়াবলি",
+    "old_topic": "ছয় দফা",
+    "subject": "বাংলাদেশ বিষয়াবলি",
+    "topic": "রাজনৈতিক ও সরকার ব্যবস্থা",
+    "chapter": "ইতিহাস ও রাষ্ট্র"
+  },
+  {
+    "id": "BCS-MODEL-0023",
+    "old_subject": "বাংলাদেশ বিষয়াবলি",
+    "old_topic": "মুক্তিযুদ্ধ",
+    "subject": "বাংলাদেশ বিষয়াবলি",
+    "topic": "মুক্তিযুদ্ধ",
+    "chapter": "ইতিহাস ও রাষ্ট্র"
+  },
+  {
+    "id": "BCS-MODEL-0024",
+    "old_subject": "বাংলাদেশ বিষয়াবলি",
+    "old_topic": "মুক্তিযুদ্ধ",
+    "subject": "বাংলাদেশ বিষয়াবলি",
+    "topic": "মুক্তিযুদ্ধ",
+    "chapter": "ইতিহাস ও রাষ্ট্র"
+  },
+  {
+    "id": "BCS-MODEL-0025",
+    "old_subject": "বাংলাদেশ বিষয়াবলি",
+    "old_topic": "সংবিধানের ইতিহাস",
+    "subject": "বাংলাদেশ বিষয়াবলি",
+    "topic": "সংবিধান",
+    "chapter": "ইতিহাস ও রাষ্ট্র"
+  },
+  {
+    "id": "BCS-MODEL-0026",
+    "old_subject": "বাংলাদেশ বিষয়াবলি",
+    "old_topic": "সংবিধান",
+    "subject": "বাংলাদেশ বিষয়াবলি",
+    "topic": "সংবিধান",
+    "chapter": "ইতিহাস ও রাষ্ট্র"
+  },
+  {
+    "id": "BCS-MODEL-0027",
+    "old_subject": "বাংলাদেশ বিষয়াবলি",
+    "old_topic": "ভৌগোলিক অবস্থান",
+    "subject": "বাংলাদেশ বিষয়াবলি",
+    "topic": "ভূপ্রকৃতি ও সম্পদ",
+    "chapter": "সমাজ ও অর্থনীতি"
+  },
+  {
+    "id": "BCS-MODEL-0028",
+    "old_subject": "বাংলাদেশ বিষয়াবলি",
+    "old_topic": "অর্থনীতি",
+    "subject": "বাংলাদেশ বিষয়াবলি",
+    "topic": "জাতীয় প্রতিষ্ঠান ও অর্জন",
+    "chapter": "সমাজ ও অর্থনীতি"
+  },
+  {
+    "id": "BCS-MODEL-0029",
+    "old_subject": "বাংলাদেশ বিষয়াবলি",
+    "old_topic": "কৃষি",
+    "subject": "বাংলাদেশ বিষয়াবলি",
+    "topic": "কৃষি",
+    "chapter": "সমাজ ও অর্থনীতি"
+  },
+  {
+    "id": "BCS-MODEL-0030",
+    "old_subject": "বাংলাদেশ বিষয়াবলি",
+    "old_topic": "সংস্কৃতি",
+    "subject": "বাংলাদেশ বিষয়াবলি",
+    "topic": "জনসংখ্যা ও সংস্কৃতি",
+    "chapter": "সমাজ ও অর্থনীতি"
+  },
+  {
+    "id": "BCS-MODEL-0031",
+    "old_subject": "আন্তর্জাতিক বিষয়াবলি",
+    "old_topic": "জাতিসংঘ",
+    "subject": "আন্তর্জাতিক বিষয়াবলি",
+    "topic": "জাতিসংঘ",
+    "chapter": "বিশ্ব ও আন্তর্জাতিক সম্পর্ক"
+  },
+  {
+    "id": "BCS-MODEL-0032",
+    "old_subject": "আন্তর্জাতিক বিষয়াবলি",
+    "old_topic": "জাতিসংঘ",
+    "subject": "আন্তর্জাতিক বিষয়াবলি",
+    "topic": "জাতিসংঘ",
+    "chapter": "বিশ্ব ও আন্তর্জাতিক সম্পর্ক"
+  },
+  {
+    "id": "BCS-MODEL-0033",
+    "old_subject": "আন্তর্জাতিক বিষয়াবলি",
+    "old_topic": "আন্তর্জাতিক বিচারব্যবস্থা",
+    "subject": "আন্তর্জাতিক বিষয়াবলি",
+    "topic": "জাতিসংঘ",
+    "chapter": "বিশ্ব ও আন্তর্জাতিক সম্পর্ক"
+  },
+  {
+    "id": "BCS-MODEL-0034",
+    "old_subject": "আন্তর্জাতিক বিষয়াবলি",
+    "old_topic": "আঞ্চলিক সংস্থা",
+    "subject": "আন্তর্জাতিক বিষয়াবলি",
+    "topic": "আঞ্চলিক ও অর্থনৈতিক সংস্থা",
+    "chapter": "বিশ্ব ও আন্তর্জাতিক সম্পর্ক"
+  },
+  {
+    "id": "BCS-MODEL-0035",
+    "old_subject": "আন্তর্জাতিক বিষয়াবলি",
+    "old_topic": "বিশ্ব স্বাস্থ্য",
+    "subject": "আন্তর্জাতিক বিষয়াবলি",
+    "topic": "জাতিসংঘ",
+    "chapter": "বিশ্ব ও আন্তর্জাতিক সম্পর্ক"
+  },
+  {
+    "id": "BCS-MODEL-0036",
+    "old_subject": "আন্তর্জাতিক বিষয়াবলি",
+    "old_topic": "বাণিজ্য",
+    "subject": "আন্তর্জাতিক বিষয়াবলি",
+    "topic": "আঞ্চলিক ও অর্থনৈতিক সংস্থা",
+    "chapter": "বিশ্ব ও আন্তর্জাতিক সম্পর্ক"
+  },
+  {
+    "id": "BCS-MODEL-0037",
+    "old_subject": "আন্তর্জাতিক বিষয়াবলি",
+    "old_topic": "মানবাধিকার",
+    "subject": "আন্তর্জাতিক বিষয়াবলি",
+    "topic": "জাতিসংঘ",
+    "chapter": "বিশ্ব ও আন্তর্জাতিক সম্পর্ক"
+  },
+  {
+    "id": "BCS-MODEL-0038",
+    "old_subject": "আন্তর্জাতিক বিষয়াবলি",
+    "old_topic": "টেকসই উন্নয়ন",
+    "subject": "আন্তর্জাতিক বিষয়াবলি",
+    "topic": "জাতিসংঘ",
+    "chapter": "বিশ্ব ও আন্তর্জাতিক সম্পর্ক"
+  },
+  {
+    "id": "BCS-MODEL-0039",
+    "old_subject": "আন্তর্জাতিক বিষয়াবলি",
+    "old_topic": "জলবায়ু কূটনীতি",
+    "subject": "আন্তর্জাতিক বিষয়াবলি",
+    "topic": "আন্তর্জাতিক চুক্তি",
+    "chapter": "বিশ্ব ও আন্তর্জাতিক সম্পর্ক"
+  },
+  {
+    "id": "BCS-MODEL-0040",
+    "old_subject": "আন্তর্জাতিক বিষয়াবলি",
+    "old_topic": "সমুদ্রপথ",
+    "subject": "আন্তর্জাতিক বিষয়াবলি",
+    "topic": "ভূরাজনীতি",
+    "chapter": "বিশ্ব ও আন্তর্জাতিক সম্পর্ক"
+  },
+  {
+    "id": "BCS-MODEL-0041",
+    "old_subject": "ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা",
+    "old_topic": "স্থানাঙ্ক",
+    "subject": "ভূগোল, পরিবেশ ও দুর্যোগ",
+    "topic": "বিশ্ব ভূগোল",
+    "chapter": "ভূগোল"
+  },
+  {
+    "id": "BCS-MODEL-0042",
+    "old_subject": "ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা",
+    "old_topic": "ঋতু",
+    "subject": "ভূগোল, পরিবেশ ও দুর্যোগ",
+    "topic": "জলবায়ু",
+    "chapter": "ভূগোল"
+  },
+  {
+    "id": "BCS-MODEL-0043",
+    "old_subject": "ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা",
+    "old_topic": "জলবায়ু",
+    "subject": "ভূগোল, পরিবেশ ও দুর্যোগ",
+    "topic": "জলবায়ু",
+    "chapter": "ভূগোল"
+  },
+  {
+    "id": "BCS-MODEL-0044",
+    "old_subject": "ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা",
+    "old_topic": "নদীভূমি",
+    "subject": "ভূগোল, পরিবেশ ও দুর্যোগ",
+    "topic": "বাংলাদেশের অবস্থান ও ভূপ্রকৃতি",
+    "chapter": "ভূগোল"
+  },
+  {
+    "id": "BCS-MODEL-0045",
+    "old_subject": "ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা",
+    "old_topic": "বায়ুমণ্ডল",
+    "subject": "ভূগোল, পরিবেশ ও দুর্যোগ",
+    "topic": "জলবায়ু",
+    "chapter": "ভূগোল"
+  },
+  {
+    "id": "BCS-MODEL-0046",
+    "old_subject": "ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা",
+    "old_topic": "পরিবেশ",
+    "subject": "ভূগোল, পরিবেশ ও দুর্যোগ",
+    "topic": "দূষণ",
+    "chapter": "পরিবেশ ও দুর্যোগ"
+  },
+  {
+    "id": "BCS-MODEL-0047",
+    "old_subject": "ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা",
+    "old_topic": "জলবায়ু পরিবর্তন",
+    "subject": "ভূগোল, পরিবেশ ও দুর্যোগ",
+    "topic": "জলবায়ু পরিবর্তন",
+    "chapter": "পরিবেশ ও দুর্যোগ"
+  },
+  {
+    "id": "BCS-MODEL-0048",
+    "old_subject": "ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা",
+    "old_topic": "ভূমিকম্প",
+    "subject": "ভূগোল, পরিবেশ ও দুর্যোগ",
+    "topic": "দুর্যোগ ঝুঁকি",
+    "chapter": "পরিবেশ ও দুর্যোগ"
+  },
+  {
+    "id": "BCS-MODEL-0049",
+    "old_subject": "ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা",
+    "old_topic": "ঘূর্ণিঝড়",
+    "subject": "ভূগোল, পরিবেশ ও দুর্যোগ",
+    "topic": "দুর্যোগ ঝুঁকি",
+    "chapter": "পরিবেশ ও দুর্যোগ"
+  },
+  {
+    "id": "BCS-MODEL-0050",
+    "old_subject": "ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা",
+    "old_topic": "দুর্যোগ প্রস্তুতি",
+    "subject": "ভূগোল, পরিবেশ ও দুর্যোগ",
+    "topic": "প্রস্তুতি ও প্রশমন",
+    "chapter": "পরিবেশ ও দুর্যোগ"
+  },
+  {
+    "id": "BCS-MODEL-0051",
+    "old_subject": "সাধারণ বিজ্ঞান",
+    "old_topic": "পরিমাপ",
+    "subject": "সাধারণ বিজ্ঞান",
+    "topic": "ভৌত রাশি ও একক",
+    "chapter": "ভৌত বিজ্ঞান"
+  },
+  {
+    "id": "BCS-MODEL-0052",
+    "old_subject": "সাধারণ বিজ্ঞান",
+    "old_topic": "কাজ ও শক্তি",
+    "subject": "সাধারণ বিজ্ঞান",
+    "topic": "কাজ, শক্তি ও ক্ষমতা",
+    "chapter": "ভৌত বিজ্ঞান"
+  },
+  {
+    "id": "BCS-MODEL-0053",
+    "old_subject": "সাধারণ বিজ্ঞান",
+    "old_topic": "বিদ্যুৎ",
+    "subject": "সাধারণ বিজ্ঞান",
+    "topic": "বিদ্যুৎ ও চুম্বক",
+    "chapter": "ভৌত বিজ্ঞান"
+  },
+  {
+    "id": "BCS-MODEL-0054",
+    "old_subject": "সাধারণ বিজ্ঞান",
+    "old_topic": "আলো",
+    "subject": "সাধারণ বিজ্ঞান",
+    "topic": "আলো ও শব্দ",
+    "chapter": "ভৌত বিজ্ঞান"
+  },
+  {
+    "id": "BCS-MODEL-0055",
+    "old_subject": "সাধারণ বিজ্ঞান",
+    "old_topic": "অম্ল ও ক্ষার",
+    "subject": "সাধারণ বিজ্ঞান",
+    "topic": "পরমাণু ও রাসায়নিক বিক্রিয়া",
+    "chapter": "ভৌত বিজ্ঞান"
+  },
+  {
+    "id": "BCS-MODEL-0056",
+    "old_subject": "সাধারণ বিজ্ঞান",
+    "old_topic": "পরমাণু",
+    "subject": "সাধারণ বিজ্ঞান",
+    "topic": "পরমাণু ও রাসায়নিক বিক্রিয়া",
+    "chapter": "ভৌত বিজ্ঞান"
+  },
+  {
+    "id": "BCS-MODEL-0057",
+    "old_subject": "সাধারণ বিজ্ঞান",
+    "old_topic": "উদ্ভিদবিজ্ঞান",
+    "subject": "সাধারণ বিজ্ঞান",
+    "topic": "জীবপ্রক্রিয়া",
+    "chapter": "জীব ও আধুনিক বিজ্ঞান"
+  },
+  {
+    "id": "BCS-MODEL-0058",
+    "old_subject": "সাধারণ বিজ্ঞান",
+    "old_topic": "মানবদেহ",
+    "subject": "সাধারণ বিজ্ঞান",
+    "topic": "জীবপ্রক্রিয়া",
+    "chapter": "জীব ও আধুনিক বিজ্ঞান"
+  },
+  {
+    "id": "BCS-MODEL-0059",
+    "old_subject": "সাধারণ বিজ্ঞান",
+    "old_topic": "পুষ্টি",
+    "subject": "সাধারণ বিজ্ঞান",
+    "topic": "পুষ্টি",
+    "chapter": "জীব ও আধুনিক বিজ্ঞান"
+  },
+  {
+    "id": "BCS-MODEL-0060",
+    "old_subject": "সাধারণ বিজ্ঞান",
+    "old_topic": "সংক্রামক রোগ",
+    "subject": "সাধারণ বিজ্ঞান",
+    "topic": "রোগ ও স্বাস্থ্য",
+    "chapter": "জীব ও আধুনিক বিজ্ঞান"
+  },
+  {
+    "id": "BCS-MODEL-0061",
+    "old_subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "old_topic": "হার্ডওয়্যার",
+    "subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "topic": "হার্ডওয়্যার",
+    "chapter": "কম্পিউটার"
+  },
+  {
+    "id": "BCS-MODEL-0062",
+    "old_subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "old_topic": "মেমরি",
+    "subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "topic": "ডেটা ও মেমোরি",
+    "chapter": "কম্পিউটার"
+  },
+  {
+    "id": "BCS-MODEL-0063",
+    "old_subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "old_topic": "সংখ্যাপদ্ধতি",
+    "subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "topic": "সংখ্যা পদ্ধতি",
+    "chapter": "কম্পিউটার"
+  },
+  {
+    "id": "BCS-MODEL-0064",
+    "old_subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "old_topic": "ডেটার একক",
+    "subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "topic": "ডেটা ও মেমোরি",
+    "chapter": "কম্পিউটার"
+  },
+  {
+    "id": "BCS-MODEL-0065",
+    "old_subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "old_topic": "অপারেটিং সিস্টেম",
+    "subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "topic": "অপারেটিং সিস্টেম",
+    "chapter": "কম্পিউটার"
+  },
+  {
+    "id": "BCS-MODEL-0066",
+    "old_subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "old_topic": "ডেটাবেস",
+    "subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "topic": "ডেটাবেজ",
+    "chapter": "কম্পিউটার"
+  },
+  {
+    "id": "BCS-MODEL-0067",
+    "old_subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "old_topic": "ইন্টারনেট",
+    "subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "topic": "ইন্টারনেট ও ওয়েব",
+    "chapter": "তথ্যপ্রযুক্তি"
+  },
+  {
+    "id": "BCS-MODEL-0068",
+    "old_subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "old_topic": "সাইবার নিরাপত্তা",
+    "subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "topic": "সাইবার নিরাপত্তা",
+    "chapter": "তথ্যপ্রযুক্তি"
+  },
+  {
+    "id": "BCS-MODEL-0069",
+    "old_subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "old_topic": "স্প্রেডশিট",
+    "subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "topic": "সফটওয়্যার",
+    "chapter": "কম্পিউটার"
+  },
+  {
+    "id": "BCS-MODEL-0070",
+    "old_subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "old_topic": "প্রোগ্রামিং",
+    "subject": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    "topic": "সফটওয়্যার",
+    "chapter": "কম্পিউটার"
+  },
+  {
+    "id": "BCS-MODEL-0071",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "শতকরা",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "শতকরা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0072",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "অনুপাত",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "অনুপাত",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0073",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "লাভ ও ক্ষতি",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "লাভ-ক্ষতি",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0074",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "সরল সুদ",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "সরল ও চক্রবৃদ্ধি সুদ",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0075",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "বীজগণিত",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "সমীকরণ",
+    "chapter": "বীজগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0076",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "সূচক",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "সূচক ও লগারিদম",
+    "chapter": "বীজগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0077",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "জ্যামিতি",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "ত্রিভুজ",
+    "chapter": "জ্যামিতি ও পরিসংখ্যান"
+  },
+  {
+    "id": "BCS-MODEL-0078",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "পরিমিতি",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বৃত্ত",
+    "chapter": "জ্যামিতি ও পরিসংখ্যান"
+  },
+  {
+    "id": "BCS-MODEL-0079",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "সম্ভাবনা",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "সম্ভাবনা",
+    "chapter": "জ্যামিতি ও পরিসংখ্যান"
+  },
+  {
+    "id": "BCS-MODEL-0080",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "গড়",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "কেন্দ্রীয় প্রবণতা",
+    "chapter": "জ্যামিতি ও পরিসংখ্যান"
+  },
+  {
+    "id": "BCS-MODEL-0081",
+    "old_subject": "মানসিক দক্ষতা",
+    "old_topic": "সংখ্যাধারা",
+    "subject": "মানসিক দক্ষতা",
+    "topic": "সংখ্যা ধারা",
+    "chapter": "যুক্তি ও বিশ্লেষণ"
+  },
+  {
+    "id": "BCS-MODEL-0082",
+    "old_subject": "মানসিক দক্ষতা",
+    "old_topic": "বর্ণধারা",
+    "subject": "মানসিক দক্ষতা",
+    "topic": "ভাষাগত যুক্তি",
+    "chapter": "যুক্তি ও বিশ্লেষণ"
+  },
+  {
+    "id": "BCS-MODEL-0083",
+    "old_subject": "মানসিক দক্ষতা",
+    "old_topic": "সাদৃশ্য",
+    "subject": "মানসিক দক্ষতা",
+    "topic": "সাদৃশ্য",
+    "chapter": "যুক্তি ও বিশ্লেষণ"
+  },
+  {
+    "id": "BCS-MODEL-0084",
+    "old_subject": "মানসিক দক্ষতা",
+    "old_topic": "দিক নির্ণয়",
+    "subject": "মানসিক দক্ষতা",
+    "topic": "সম্পর্ক ও দিক",
+    "chapter": "যুক্তি ও বিশ্লেষণ"
+  },
+  {
+    "id": "BCS-MODEL-0085",
+    "old_subject": "মানসিক দক্ষতা",
+    "old_topic": "রক্তের সম্পর্ক",
+    "subject": "মানসিক দক্ষতা",
+    "topic": "সম্পর্ক ও দিক",
+    "chapter": "যুক্তি ও বিশ্লেষণ"
+  },
+  {
+    "id": "BCS-MODEL-0086",
+    "old_subject": "মানসিক দক্ষতা",
+    "old_topic": "সাংকেতিক ভাষা",
+    "subject": "মানসিক দক্ষতা",
+    "topic": "ভাষাগত যুক্তি",
+    "chapter": "যুক্তি ও বিশ্লেষণ"
+  },
+  {
+    "id": "BCS-MODEL-0087",
+    "old_subject": "মানসিক দক্ষতা",
+    "old_topic": "যৌক্তিক সিদ্ধান্ত",
+    "subject": "মানসিক দক্ষতা",
+    "topic": "ভাষাগত যুক্তি",
+    "chapter": "যুক্তি ও বিশ্লেষণ"
+  },
+  {
+    "id": "BCS-MODEL-0088",
+    "old_subject": "মানসিক দক্ষতা",
+    "old_topic": "ক্রমবিন্যাস",
+    "subject": "মানসিক দক্ষতা",
+    "topic": "সমস্যা সমাধান",
+    "chapter": "যুক্তি ও বিশ্লেষণ"
+  },
+  {
+    "id": "BCS-MODEL-0089",
+    "old_subject": "মানসিক দক্ষতা",
+    "old_topic": "ক্যালেন্ডার",
+    "subject": "মানসিক দক্ষতা",
+    "topic": "সমস্যা সমাধান",
+    "chapter": "যুক্তি ও বিশ্লেষণ"
+  },
+  {
+    "id": "BCS-MODEL-0090",
+    "old_subject": "মানসিক দক্ষতা",
+    "old_topic": "ঘড়ি",
+    "subject": "মানসিক দক্ষতা",
+    "topic": "সমস্যা সমাধান",
+    "chapter": "যুক্তি ও বিশ্লেষণ"
+  },
+  {
+    "id": "BCS-MODEL-0091",
+    "old_subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "old_topic": "স্বার্থের সংঘাত",
+    "subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "topic": "স্বার্থের সংঘাত",
+    "chapter": "নৈতিকতা ও সুশাসন"
+  },
+  {
+    "id": "BCS-MODEL-0092",
+    "old_subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "old_topic": "জবাবদিহি",
+    "subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "topic": "সততা ও জবাবদিহি",
+    "chapter": "নৈতিকতা ও সুশাসন"
+  },
+  {
+    "id": "BCS-MODEL-0093",
+    "old_subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "old_topic": "আইনের শাসন",
+    "subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "topic": "আইনের শাসন",
+    "chapter": "নৈতিকতা ও সুশাসন"
+  },
+  {
+    "id": "BCS-MODEL-0094",
+    "old_subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "old_topic": "স্বচ্ছতা",
+    "subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "topic": "স্বচ্ছতা",
+    "chapter": "নৈতিকতা ও সুশাসন"
+  },
+  {
+    "id": "BCS-MODEL-0095",
+    "old_subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "old_topic": "সততা",
+    "subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "topic": "সততা ও জবাবদিহি",
+    "chapter": "নৈতিকতা ও সুশাসন"
+  },
+  {
+    "id": "BCS-MODEL-0096",
+    "old_subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "old_topic": "সমতা ও ন্যায্যতা",
+    "subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "topic": "মূল্যবোধ",
+    "chapter": "নৈতিকতা ও সুশাসন"
+  },
+  {
+    "id": "BCS-MODEL-0097",
+    "old_subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "old_topic": "অংশগ্রহণ",
+    "subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "topic": "সুশাসন ও উন্নয়ন",
+    "chapter": "নৈতিকতা ও সুশাসন"
+  },
+  {
+    "id": "BCS-MODEL-0098",
+    "old_subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "old_topic": "তথ্যের দায়িত্বশীল ব্যবহার",
+    "subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "topic": "নৈতিকতার ধারণা",
+    "chapter": "নৈতিকতা ও সুশাসন"
+  },
+  {
+    "id": "BCS-MODEL-0099",
+    "old_subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "old_topic": "কর্তব্যনিষ্ঠা",
+    "subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "topic": "সুশাসন ও উন্নয়ন",
+    "chapter": "নৈতিকতা ও সুশাসন"
+  },
+  {
+    "id": "BCS-MODEL-0100",
+    "old_subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "old_topic": "টেকসই নৈতিকতা",
+    "subject": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    "topic": "সুশাসন ও উন্নয়ন",
+    "chapter": "নৈতিকতা ও সুশাসন"
+  },
+  {
+    "id": "BCS-MODEL-0101",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Modals",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0102",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Auxiliary verbs",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0103",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Infinitives",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0104",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Gerunds",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0105",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Perfect forms",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0106",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Continuous forms",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0107",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Passive forms",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0108",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Bare infinitives",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0109",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Causatives",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0110",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Passive causatives",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0111",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Verb patterns",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0112",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Verb patterns",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0113",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Preference clauses",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0114",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Past habits",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0115",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Accustomed actions",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0116",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Gerunds",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0117",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Gerunds",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0118",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Gerunds",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0119",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Prepositional to",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0120",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Prepositional to",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0121",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Finished past time",
+    "subject": "English Language & Literature",
+    "topic": "Tense and aspect",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0122",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Time expressions",
+    "subject": "English Language & Literature",
+    "topic": "Prepositions",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0123",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Time expressions",
+    "subject": "English Language & Literature",
+    "topic": "Prepositions",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0124",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Unreal past form",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0125",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Inversion",
+    "subject": "English Language & Literature",
+    "topic": "Tense and aspect",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0126",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Paired conjunctions",
+    "subject": "English Language & Literature",
+    "topic": "Tense and aspect",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0127",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Conditionals",
+    "subject": "English Language & Literature",
+    "topic": "Clauses and phrases",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0128",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Conditionals",
+    "subject": "English Language & Literature",
+    "topic": "Clauses and phrases",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0129",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Conditionals",
+    "subject": "English Language & Literature",
+    "topic": "Clauses and phrases",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0130",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Wishes",
+    "subject": "English Language & Literature",
+    "topic": "Sentence correction",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0131",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Pronouns",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0132",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Reporting verbs",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0133",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Backshift",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0134",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Backshift",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0135",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Backshift",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0136",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Backshift",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0137",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Present reporting verb",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0138",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Reported facts",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0139",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Reported modals",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0140",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Reported modals",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0141",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Time references",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0142",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Time references",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0143",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Time references",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0144",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Place references",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0145",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Indirect questions",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0146",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Word order",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0147",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Indirect questions",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0148",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Indirect questions",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0149",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Orders",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0150",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Prohibitions",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0151",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Requests",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0152",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Advice",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0153",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Suggestions",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0154",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Permission requests",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0155",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Wishes",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0156",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Prayers",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0157",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Exclamations",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0158",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Exclamations",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0159",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Apologies",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0160",
+    "old_subject": "English Language and Literature",
+    "old_topic": "Congratulations",
+    "subject": "English Language & Literature",
+    "topic": "Narration",
+    "chapter": "Language"
+  },
+  {
+    "id": "BCS-MODEL-0161",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "জোড়-বিজোড়",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0162",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "জোড়-বিজোড়",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0163",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "জোড়-বিজোড়",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0164",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "মৌলিক সংখ্যা",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0165",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "মৌলিক সংখ্যা",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0166",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "মৌলিক সংখ্যা",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0167",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "মৌলিকতা পরীক্ষা",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0168",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "সহমৌলিক",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0169",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "সহমৌলিক",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0170",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "সহমৌলিক",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0171",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "মূলদ সংখ্যা",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0172",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "অমূলদ সংখ্যা",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0173",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "মূলদ সংখ্যা",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0174",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "আবৃত্ত দশমিক",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0175",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "অমূলদ রাশি",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0176",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "সংখ্যার শ্রেণি",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0177",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "ক্রমিক পূর্ণসংখ্যা",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0178",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "ক্রমিক পূর্ণসংখ্যা",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0179",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "অঙ্কবিন্যাস",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0180",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "অঙ্কবিন্যাস",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0181",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "গসাগু",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "গসাগু ও লসাগু",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0182",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "লসাগু",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "গসাগু ও লসাগু",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0183",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "গসাগু-লসাগুর সম্পর্ক",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "গসাগু ও লসাগু",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0184",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "সাধারণ গুণনীয়ক",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "গসাগু ও লসাগু",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0185",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "সাধারণ গুণিতক",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "গসাগু ও লসাগু",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0186",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "ভাগশেষ",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "গসাগু ও লসাগু",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0187",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "ভাগশেষ",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "গসাগু ও লসাগু",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0188",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "সমবণ্টন",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "গসাগু ও লসাগু",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0189",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "সমাপতন",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "গসাগু ও লসাগু",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0190",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "গসাগু ও অনুপাত",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "গসাগু ও লসাগু",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0191",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "লসাগু ও অনুপাত",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "গসাগু ও লসাগু",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0192",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "ইউক্লিডীয় সম্পর্ক",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "গসাগু ও লসাগু",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0193",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "মৌলিক উৎপাদক",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0194",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "যৌগিক সংখ্যা",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0195",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "মৌলিক সংখ্যার গুণফল",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0196",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "সহমৌলিক ও যৌগিক",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "বাস্তব সংখ্যা",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0197",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "গুণনীয়ক-গুণিতক",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "গসাগু ও লসাগু",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0198",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "সমান টুকরা",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "গসাগু ও লসাগু",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0199",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "একই ভাগশেষ",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "গসাগু ও লসাগু",
+    "chapter": "পাটিগণিত"
+  },
+  {
+    "id": "BCS-MODEL-0200",
+    "old_subject": "গাণিতিক যুক্তি",
+    "old_topic": "সংখ্যাজোড়া",
+    "subject": "গাণিতিক যুক্তি",
+    "topic": "গসাগু ও লসাগু",
+    "chapter": "পাটিগণিত"
+  }
+]

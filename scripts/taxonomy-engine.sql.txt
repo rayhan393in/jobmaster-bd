@@ -1,0 +1,78 @@
+create or replace function public.jobmaster_taxonomy_admin(p jsonb) returns jsonb language plpgsql security definer set search_path='' as $$
+declare u uuid:=auth.uid(); qid text:=p->>'question_id'; leaf text:=p->>'subtopic_id'; tr text; expected_track text;
+begin
+ if u is null then raise exception 'Unauthorized';end if;
+ if not exists(select 1 from jobmaster_private.profiles where id=u and role='admin') then raise exception 'Admin access required';end if;
+ perform public.jobmaster_action(jsonb_build_object('action','workspace','track','BCS'));
+ if p->>'action'='list' then return jsonb_build_object('assignments',(select coalesce(jsonb_agg(to_jsonb(a)),'[]') from (select question_id,subtopic_id from jobmaster_private.question_classification order by question_id)a));end if;
+ if p->>'action' is distinct from 'assign' then raise exception 'Unknown action';end if;
+ select data->>'track' into tr from jobmaster_private.questions where id=qid for update;
+ if not found then raise exception 'Question not found';end if;
+ select s.track into expected_track from jobmaster_private.exam_subtopics l join jobmaster_private.exam_topics t on t.id=l.topic_id join jobmaster_private.exam_subjects s on s.id=t.subject_id where l.id=leaf;
+ if expected_track is null or tr<>expected_track then raise exception 'Invalid subtopic or track mismatch';end if;
+ if exists(select 1 from jobmaster_private.exams where question_ids @> jsonb_build_array(qid)) or exists(select 1 from jobmaster_private.bcs_plan_questions where question_id=qid) then raise exception 'Scheduled/routine question classification is protected';end if;
+ if exists(select 1 from jobmaster_private.question_classification where question_id=qid and subtopic_id=leaf) then return '{"ok":true,"unchanged":true}'::jsonb;end if;
+ insert into jobmaster_private.question_classification(question_id,subtopic_id,assigned_by) values(qid,leaf,u) on conflict(question_id) do update set subtopic_id=excluded.subtopic_id,assigned_by=u,updated=clock_timestamp();
+ update jobmaster_private.questions set verified=false where id=qid;
+ insert into jobmaster_private.audit(actor,action,entity) values(u,'question_classification',qid);
+ return '{"ok":true,"review_required":true}'::jsonb;
+end $$;
+revoke all on function public.jobmaster_taxonomy_admin(jsonb) from public,anon;
+grant execute on function public.jobmaster_taxonomy_admin(jsonb) to authenticated;
+
+create or replace function public.jobmaster_custom_exam(p jsonb) returns jsonb
+language plpgsql security definer set search_path='' as $$
+declare u uuid:=auth.uid();tr text:=p->>'track';a text:=p->>'action';pool jsonb;catalog jsonb;picked jsonb:='[]';candidates jsonb;part jsonb;sel jsonb;n int;mins int;ms bigint;sid uuid;v text;seen text[]:='{}';used_ids text[]:='{}';candidate_ids text[];total_n int:=0;
+begin
+ if u is null then raise exception 'Unauthorized';end if;
+ if tr is null or tr not in ('BCS','EEE') then raise exception 'Invalid track';end if;
+ perform public.jobmaster_action(jsonb_build_object('action','workspace','track',tr));ms:=jobmaster_private.now_ms();
+ select coalesce(jsonb_agg(jsonb_build_object('data',case when s.id is not null then q.data||jsonb_build_object('subject',s.title,'topic',t.title,'subtopic',l.title,'subject_id',s.id,'topic_id',t.id,'subtopic_id',l.id) else q.data end,'subject_id',s.id,'topic_id',t.id,'subtopic_id',l.id,
+  'subject',coalesce(s.title,q.data->>'subject'),'topic',coalesce(t.title,
+   (select nullif(btrim(z.metadata->>'topic'),'') from jobmaster_private.bcs_question_sources z where z.question_id=q.id order by z.plan_id limit 1),nullif(q.data->>'topic',''),'টপিক অনির্ধারিত'),
+  'subtopic',coalesce(l.title,'Mapping বাকি'))),'[]') into pool
+ from jobmaster_private.questions q
+ left join jobmaster_private.question_classification c on c.question_id=q.id
+ left join jobmaster_private.exam_subtopics l on l.id=c.subtopic_id
+ left join jobmaster_private.exam_topics t on t.id=l.topic_id
+ left join jobmaster_private.exam_subjects s on s.id=t.subject_id and s.track=tr
+ where q.verified and q.data->>'track'=tr and (c.question_id is null or s.id is not null)
+ and not exists(select 1 from jobmaster_private.bcs_plan_questions b join jobmaster_private.bcs_month_plan m on m.id=b.plan_id where b.question_id=q.id and m.ends>ms)
+ and not exists(select 1 from jobmaster_private.exams e where e.ends>ms and e.question_ids @> jsonb_build_array(q.id));
+ if a='catalog' then
+  select coalesce(jsonb_agg(to_jsonb(z) order by z.subject,z.topic,z.level,z.subtopic),'[]') into catalog from (
+   select 'topic:'||(x->>'topic_id') key,'topic' level,x->>'subject_id' subject_id,x->>'topic_id' topic_id,null::text subtopic_id,x->>'subject' subject,x->>'topic' topic,null::text subtopic,count(*) available
+   from jsonb_array_elements(pool) x where x->>'topic_id' is not null group by 1,3,4,6,7
+   union all
+   select 'sub:'||(x->>'subtopic_id'),'subtopic',x->>'subject_id',x->>'topic_id',x->>'subtopic_id',x->>'subject',x->>'topic',x->>'subtopic',count(*)
+   from jsonb_array_elements(pool) x where x->>'subtopic_id' is not null group by 1,3,4,5,6,7,8
+   union all
+   select 'legacy:'||md5((x->>'subject')||chr(31)||(x->>'topic')),'legacy',null,null,null,x->>'subject',x->>'topic',null,count(*)
+   from jsonb_array_elements(pool) x where x->>'topic_id' is null group by 1,6,7
+  )z;
+  return jsonb_build_object('version',2,'topics',catalog,'now',ms);
+ end if;
+ if a is distinct from 'start' then raise exception 'Unknown action';end if;
+ if jsonb_typeof(p->'selections') is distinct from 'array' or jsonb_array_length(p->'selections') not between 1 and 30 then raise exception 'Select 1 to 30 groups';end if;
+ if coalesce(p->>'minutes','') !~ '^[0-9]{1,3}$' then raise exception 'Invalid minutes';end if;
+ mins:=(p->>'minutes')::int;if mins not between 1 and 180 then raise exception 'Minutes must be 1–180';end if;
+ perform pg_advisory_xact_lock(hashtext(u::text));
+ for sel in select value from jsonb_array_elements(p->'selections') loop
+  v:=sel->>'key';if v is null or v=any(seen) then raise exception 'Duplicate or missing group';end if;seen:=array_append(seen,v);
+  if coalesce(sel->>'count','') !~ '^[0-9]{1,3}$' then raise exception 'Invalid question count';end if;
+  n:=(sel->>'count')::int;if n not between 1 and 100 then raise exception 'Count must be 1–100';end if;
+  total_n:=total_n+n;if total_n>100 then raise exception 'Maximum 100 questions per paper';end if;
+  select coalesce(jsonb_agg(x),'[]'),array_agg(x->'data'->>'id') into candidates,candidate_ids from jsonb_array_elements(pool) x where
+   v='topic:'||(x->>'topic_id') or v='sub:'||(x->>'subtopic_id') or
+   (x->>'topic_id' is null and v='legacy:'||md5((x->>'subject')||chr(31)||(x->>'topic')));
+  if jsonb_array_length(candidates)<n then raise exception 'Not enough verified questions; refresh availability';end if;
+  if candidate_ids && used_ids then raise exception 'Parent topic and its subtopics overlap; select only one level';end if;
+  used_ids:=used_ids||candidate_ids;
+  select jsonb_agg(z.x->'data') into part from (select x from jsonb_array_elements(candidates) x order by random() limit n)z;picked:=picked||part;
+ end loop;
+ if (select count(distinct x->>'id') from jsonb_array_elements(picked) x)<>total_n then raise exception 'Duplicate question selection';end if;
+ insert into jobmaster_private.sessions(user_id,track,started,deadline,snapshot) values(u,tr,ms,ms+mins::bigint*60000,picked) returning id into sid;
+ return jsonb_build_object('id',sid,'count',total_n,'deadline',ms+mins::bigint*60000);
+end $$;
+revoke all on function public.jobmaster_custom_exam(jsonb) from public,anon;
+grant execute on function public.jobmaster_custom_exam(jsonb) to authenticated;

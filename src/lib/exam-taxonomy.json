@@ -1,0 +1,3262 @@
+{
+  "version": 2,
+  "status": "editorial-not-official-complete-syllabus",
+  "subjects": [
+    {
+      "id": "bcs:bangla",
+      "track": "BCS",
+      "title": "বাংলা ভাষা ও সাহিত্য",
+      "topics": [
+        {
+          "id": "bcs:bangla:720507debcc9",
+          "title": "ধ্বনি ও বর্ণ",
+          "chapter": "ব্যাকরণ",
+          "subtopics": [
+            {
+              "id": "bcs:bangla:720507debcc9:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:bangla:720507debcc9:b6a5166d1a97",
+              "title": "ধ্বনিবিজ্ঞান"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bangla:43e40ad87110",
+          "title": "সন্ধি",
+          "chapter": "ব্যাকরণ",
+          "subtopics": [
+            {
+              "id": "bcs:bangla:43e40ad87110:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bangla:f7945cc097f9",
+          "title": "সমাস",
+          "chapter": "ব্যাকরণ",
+          "subtopics": [
+            {
+              "id": "bcs:bangla:f7945cc097f9:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bangla:0fd695d9ac47",
+          "title": "কারক ও বিভক্তি",
+          "chapter": "ব্যাকরণ",
+          "subtopics": [
+            {
+              "id": "bcs:bangla:0fd695d9ac47:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:bangla:0fd695d9ac47:f54d9047f82a",
+              "title": "কারক"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bangla:bc828a8c0c12",
+          "title": "প্রত্যয়",
+          "chapter": "ব্যাকরণ",
+          "subtopics": [
+            {
+              "id": "bcs:bangla:bc828a8c0c12:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bangla:e42e9ec37b46",
+          "title": "উপসর্গ",
+          "chapter": "ব্যাকরণ",
+          "subtopics": [
+            {
+              "id": "bcs:bangla:e42e9ec37b46:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bangla:7bd1fd78926f",
+          "title": "পদ ও পদপ্রকরণ",
+          "chapter": "ব্যাকরণ",
+          "subtopics": [
+            {
+              "id": "bcs:bangla:7bd1fd78926f:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bangla:c5870d9f96d7",
+          "title": "বাক্য",
+          "chapter": "ব্যাকরণ",
+          "subtopics": [
+            {
+              "id": "bcs:bangla:c5870d9f96d7:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bangla:9ebc5e3d9216",
+          "title": "শুদ্ধ বানান ও প্রয়োগ",
+          "chapter": "ব্যাকরণ",
+          "subtopics": [
+            {
+              "id": "bcs:bangla:9ebc5e3d9216:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:bangla:9ebc5e3d9216:6e3bdc4fe39b",
+              "title": "বানান"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bangla:0c4abd08e928",
+          "title": "বাগধারা",
+          "chapter": "ব্যাকরণ",
+          "subtopics": [
+            {
+              "id": "bcs:bangla:0c4abd08e928:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bangla:3d64b0304971",
+          "title": "সমার্থক ও বিপরীত শব্দ",
+          "chapter": "ব্যাকরণ",
+          "subtopics": [
+            {
+              "id": "bcs:bangla:3d64b0304971:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bangla:b3bfde7cf157",
+          "title": "প্রাচীন যুগ ও চর্যাপদ",
+          "chapter": "সাহিত্য",
+          "subtopics": [
+            {
+              "id": "bcs:bangla:b3bfde7cf157:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:bangla:b3bfde7cf157:a15084ae6d43",
+              "title": "প্রাচীন সাহিত্য"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bangla:6bc6f3122499",
+          "title": "মধ্যযুগের সাহিত্য",
+          "chapter": "সাহিত্য",
+          "subtopics": [
+            {
+              "id": "bcs:bangla:6bc6f3122499:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bangla:86e5581acefe",
+          "title": "আধুনিক যুগ",
+          "chapter": "সাহিত্য",
+          "subtopics": [
+            {
+              "id": "bcs:bangla:86e5581acefe:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bangla:818d9d8fa992",
+          "title": "কবি ও সাহিত্যিক",
+          "chapter": "সাহিত্য",
+          "subtopics": [
+            {
+              "id": "bcs:bangla:818d9d8fa992:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:bangla:818d9d8fa992:431e9b9f4085",
+              "title": "কবিতা"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bangla:5379b522c084",
+          "title": "বিখ্যাত গ্রন্থ ও চরিত্র",
+          "chapter": "সাহিত্য",
+          "subtopics": [
+            {
+              "id": "bcs:bangla:5379b522c084:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:bangla:5379b522c084:f4a529991ee0",
+              "title": "উপন্যাস"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bcs:english",
+      "track": "BCS",
+      "title": "English Language & Literature",
+      "topics": [
+        {
+          "id": "bcs:english:771046687efa",
+          "title": "Parts of speech",
+          "chapter": "Language",
+          "subtopics": [
+            {
+              "id": "bcs:english:771046687efa:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:english:45b80ee2fedb",
+          "title": "Tense and aspect",
+          "chapter": "Language",
+          "subtopics": [
+            {
+              "id": "bcs:english:45b80ee2fedb:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:english:45b80ee2fedb:2cacf6c14ec8",
+              "title": "Tense"
+            },
+            {
+              "id": "bcs:english:45b80ee2fedb:abe00e9c9c31",
+              "title": "Finished past time"
+            },
+            {
+              "id": "bcs:english:45b80ee2fedb:3597ef1f9fe2",
+              "title": "Inversion"
+            },
+            {
+              "id": "bcs:english:45b80ee2fedb:a52bb78d5609",
+              "title": "Paired conjunctions"
+            }
+          ]
+        },
+        {
+          "id": "bcs:english:9f473d774945",
+          "title": "Subject-verb agreement",
+          "chapter": "Language",
+          "subtopics": [
+            {
+              "id": "bcs:english:9f473d774945:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:english:9f473d774945:fc31779117de",
+              "title": "Subject–verb agreement"
+            }
+          ]
+        },
+        {
+          "id": "bcs:english:6658e9b36c34",
+          "title": "Articles and determiners",
+          "chapter": "Language",
+          "subtopics": [
+            {
+              "id": "bcs:english:6658e9b36c34:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:english:6658e9b36c34:b14ac78a46e9",
+              "title": "Articles"
+            }
+          ]
+        },
+        {
+          "id": "bcs:english:f6bcda8b4f94",
+          "title": "Prepositions",
+          "chapter": "Language",
+          "subtopics": [
+            {
+              "id": "bcs:english:f6bcda8b4f94:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:english:f6bcda8b4f94:a0d846a0e9c6",
+              "title": "Time expressions"
+            }
+          ]
+        },
+        {
+          "id": "bcs:english:87bf2bc08589",
+          "title": "Voice",
+          "chapter": "Language",
+          "subtopics": [
+            {
+              "id": "bcs:english:87bf2bc08589:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:english:d90a31d7b565",
+          "title": "Narration",
+          "chapter": "Language",
+          "subtopics": [
+            {
+              "id": "bcs:english:d90a31d7b565:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:28104b8f1375",
+              "title": "Pronouns"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:3671fc2f9e7f",
+              "title": "Reporting verbs"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:77ae9160b827",
+              "title": "Backshift"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:40c1aeb77c4e",
+              "title": "Present reporting verb"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:29fbda27d46a",
+              "title": "Reported facts"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:7c3295f7f169",
+              "title": "Reported modals"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:21086ed44d58",
+              "title": "Time references"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:d11eedfc27fb",
+              "title": "Place references"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:39cbc15b8fca",
+              "title": "Indirect questions"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:6cab2d8cd0db",
+              "title": "Word order"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:b7e8acdd522e",
+              "title": "Orders"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:d65c09e289ea",
+              "title": "Prohibitions"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:ada27592c957",
+              "title": "Requests"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:305f5e5463e1",
+              "title": "Advice"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:16c1d601fc66",
+              "title": "Suggestions"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:1627c4947843",
+              "title": "Permission requests"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:403cc21502eb",
+              "title": "Wishes"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:5799f08aa568",
+              "title": "Prayers"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:d19e3194b388",
+              "title": "Exclamations"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:5e883e98cf79",
+              "title": "Apologies"
+            },
+            {
+              "id": "bcs:english:d90a31d7b565:ed7a9987f264",
+              "title": "Congratulations"
+            }
+          ]
+        },
+        {
+          "id": "bcs:english:565dfca4a5bd",
+          "title": "Clauses and phrases",
+          "chapter": "Language",
+          "subtopics": [
+            {
+              "id": "bcs:english:565dfca4a5bd:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:english:565dfca4a5bd:126995365015",
+              "title": "Conditionals"
+            }
+          ]
+        },
+        {
+          "id": "bcs:english:547efd6bc280",
+          "title": "Sentence correction",
+          "chapter": "Language",
+          "subtopics": [
+            {
+              "id": "bcs:english:547efd6bc280:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:english:547efd6bc280:3138cdacb043",
+              "title": "Modals"
+            },
+            {
+              "id": "bcs:english:547efd6bc280:5cbb4f06c6fd",
+              "title": "Auxiliary verbs"
+            },
+            {
+              "id": "bcs:english:547efd6bc280:10a0d424f76e",
+              "title": "Infinitives"
+            },
+            {
+              "id": "bcs:english:547efd6bc280:365c8947d85c",
+              "title": "Gerunds"
+            },
+            {
+              "id": "bcs:english:547efd6bc280:740ded6936a6",
+              "title": "Perfect forms"
+            },
+            {
+              "id": "bcs:english:547efd6bc280:a3db25569b22",
+              "title": "Continuous forms"
+            },
+            {
+              "id": "bcs:english:547efd6bc280:b2a2075aa145",
+              "title": "Passive forms"
+            },
+            {
+              "id": "bcs:english:547efd6bc280:e75e2900dd2a",
+              "title": "Bare infinitives"
+            },
+            {
+              "id": "bcs:english:547efd6bc280:7825ae82af79",
+              "title": "Causatives"
+            },
+            {
+              "id": "bcs:english:547efd6bc280:ed320a989e48",
+              "title": "Passive causatives"
+            },
+            {
+              "id": "bcs:english:547efd6bc280:5ffb5737db16",
+              "title": "Verb patterns"
+            },
+            {
+              "id": "bcs:english:547efd6bc280:88cceadb438b",
+              "title": "Preference clauses"
+            },
+            {
+              "id": "bcs:english:547efd6bc280:fc0f8a512b9d",
+              "title": "Past habits"
+            },
+            {
+              "id": "bcs:english:547efd6bc280:85e4d9f5bbea",
+              "title": "Accustomed actions"
+            },
+            {
+              "id": "bcs:english:547efd6bc280:0c06ea20ec0c",
+              "title": "Prepositional to"
+            },
+            {
+              "id": "bcs:english:547efd6bc280:868f2b9d42d3",
+              "title": "Unreal past form"
+            },
+            {
+              "id": "bcs:english:547efd6bc280:403cc21502eb",
+              "title": "Wishes"
+            }
+          ]
+        },
+        {
+          "id": "bcs:english:8aeb948188e6",
+          "title": "Vocabulary, idioms and spelling",
+          "chapter": "Language",
+          "subtopics": [
+            {
+              "id": "bcs:english:8aeb948188e6:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:english:8aeb948188e6:eebd90a046c6",
+              "title": "Vocabulary"
+            },
+            {
+              "id": "bcs:english:8aeb948188e6:4e1495cb16ac",
+              "title": "Idioms"
+            }
+          ]
+        },
+        {
+          "id": "bcs:english:5092f78525f7",
+          "title": "Literary periods",
+          "chapter": "Literature",
+          "subtopics": [
+            {
+              "id": "bcs:english:5092f78525f7:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:english:b993ca685399",
+          "title": "Major authors and works",
+          "chapter": "Literature",
+          "subtopics": [
+            {
+              "id": "bcs:english:b993ca685399:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:english:b993ca685399:da72bf5bbca4",
+              "title": "Drama"
+            },
+            {
+              "id": "bcs:english:b993ca685399:a6f10bde1cb3",
+              "title": "Poetry"
+            }
+          ]
+        },
+        {
+          "id": "bcs:english:ee8bd7d1ee80",
+          "title": "Literary terms",
+          "chapter": "Literature",
+          "subtopics": [
+            {
+              "id": "bcs:english:ee8bd7d1ee80:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:english:8e925b5c1133",
+          "title": "Poetry, drama and fiction",
+          "chapter": "Literature",
+          "subtopics": [
+            {
+              "id": "bcs:english:8e925b5c1133:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bcs:bd",
+      "track": "BCS",
+      "title": "বাংলাদেশ বিষয়াবলি",
+      "topics": [
+        {
+          "id": "bcs:bd:3481ca6f86d3",
+          "title": "প্রাচীন ও মধ্যযুগের ইতিহাস",
+          "chapter": "ইতিহাস ও রাষ্ট্র",
+          "subtopics": [
+            {
+              "id": "bcs:bd:3481ca6f86d3:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bd:baad1f4397bf",
+          "title": "ভাষা আন্দোলন",
+          "chapter": "ইতিহাস ও রাষ্ট্র",
+          "subtopics": [
+            {
+              "id": "bcs:bd:baad1f4397bf:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bd:66662d5eb1a4",
+          "title": "মুক্তিযুদ্ধ",
+          "chapter": "ইতিহাস ও রাষ্ট্র",
+          "subtopics": [
+            {
+              "id": "bcs:bd:66662d5eb1a4:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bd:570709e5e859",
+          "title": "সংবিধান",
+          "chapter": "ইতিহাস ও রাষ্ট্র",
+          "subtopics": [
+            {
+              "id": "bcs:bd:570709e5e859:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:bd:570709e5e859:998118b96e82",
+              "title": "সংবিধানের ইতিহাস"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bd:d543a2100e1c",
+          "title": "রাজনৈতিক ও সরকার ব্যবস্থা",
+          "chapter": "ইতিহাস ও রাষ্ট্র",
+          "subtopics": [
+            {
+              "id": "bcs:bd:d543a2100e1c:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:bd:d543a2100e1c:2950915a19a0",
+              "title": "ছয় দফা"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bd:a246d599459e",
+          "title": "ভূপ্রকৃতি ও সম্পদ",
+          "chapter": "সমাজ ও অর্থনীতি",
+          "subtopics": [
+            {
+              "id": "bcs:bd:a246d599459e:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:bd:a246d599459e:e9f2dc05114a",
+              "title": "ভৌগোলিক অবস্থান"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bd:18ce88ebeba4",
+          "title": "জনসংখ্যা ও সংস্কৃতি",
+          "chapter": "সমাজ ও অর্থনীতি",
+          "subtopics": [
+            {
+              "id": "bcs:bd:18ce88ebeba4:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:bd:18ce88ebeba4:51af6f13c484",
+              "title": "সংস্কৃতি"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bd:811bce8dfdad",
+          "title": "কৃষি",
+          "chapter": "সমাজ ও অর্থনীতি",
+          "subtopics": [
+            {
+              "id": "bcs:bd:811bce8dfdad:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bd:27ca1d4ccf26",
+          "title": "শিল্প ও বাণিজ্য",
+          "chapter": "সমাজ ও অর্থনীতি",
+          "subtopics": [
+            {
+              "id": "bcs:bd:27ca1d4ccf26:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bd:a3f141453df7",
+          "title": "অর্থনীতি ও বাজেট",
+          "chapter": "সমাজ ও অর্থনীতি",
+          "subtopics": [
+            {
+              "id": "bcs:bd:a3f141453df7:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:bd:bb5ccc21e697",
+          "title": "জাতীয় প্রতিষ্ঠান ও অর্জন",
+          "chapter": "সমাজ ও অর্থনীতি",
+          "subtopics": [
+            {
+              "id": "bcs:bd:bb5ccc21e697:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:bd:bb5ccc21e697:9d7353c17b6e",
+              "title": "অর্থনীতি"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bcs:international",
+      "track": "BCS",
+      "title": "আন্তর্জাতিক বিষয়াবলি",
+      "topics": [
+        {
+          "id": "bcs:international:d12f661162b0",
+          "title": "বিশ্ব ইতিহাস",
+          "chapter": "বিশ্ব ও আন্তর্জাতিক সম্পর্ক",
+          "subtopics": [
+            {
+              "id": "bcs:international:d12f661162b0:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:international:e5b52119c755",
+          "title": "ভূরাজনীতি",
+          "chapter": "বিশ্ব ও আন্তর্জাতিক সম্পর্ক",
+          "subtopics": [
+            {
+              "id": "bcs:international:e5b52119c755:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:international:e5b52119c755:412080858647",
+              "title": "সমুদ্রপথ"
+            }
+          ]
+        },
+        {
+          "id": "bcs:international:a56b781492fc",
+          "title": "আন্তর্জাতিক নিরাপত্তা",
+          "chapter": "বিশ্ব ও আন্তর্জাতিক সম্পর্ক",
+          "subtopics": [
+            {
+              "id": "bcs:international:a56b781492fc:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:international:c99dd5704a8e",
+          "title": "জাতিসংঘ",
+          "chapter": "বিশ্ব ও আন্তর্জাতিক সম্পর্ক",
+          "subtopics": [
+            {
+              "id": "bcs:international:c99dd5704a8e:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:international:c99dd5704a8e:520da8f86df8",
+              "title": "আন্তর্জাতিক বিচারব্যবস্থা"
+            },
+            {
+              "id": "bcs:international:c99dd5704a8e:bcd13c79e3e7",
+              "title": "বিশ্ব স্বাস্থ্য"
+            },
+            {
+              "id": "bcs:international:c99dd5704a8e:d0f6c7c7007e",
+              "title": "মানবাধিকার"
+            },
+            {
+              "id": "bcs:international:c99dd5704a8e:2f8ed2460be0",
+              "title": "টেকসই উন্নয়ন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:international:e5f34824197d",
+          "title": "আঞ্চলিক ও অর্থনৈতিক সংস্থা",
+          "chapter": "বিশ্ব ও আন্তর্জাতিক সম্পর্ক",
+          "subtopics": [
+            {
+              "id": "bcs:international:e5f34824197d:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:international:e5f34824197d:819981f81412",
+              "title": "আঞ্চলিক সংস্থা"
+            },
+            {
+              "id": "bcs:international:e5f34824197d:91fe75ae64a5",
+              "title": "বাণিজ্য"
+            }
+          ]
+        },
+        {
+          "id": "bcs:international:542a021d6b0e",
+          "title": "আন্তর্জাতিক চুক্তি",
+          "chapter": "বিশ্ব ও আন্তর্জাতিক সম্পর্ক",
+          "subtopics": [
+            {
+              "id": "bcs:international:542a021d6b0e:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:international:542a021d6b0e:887d68894230",
+              "title": "জলবায়ু কূটনীতি"
+            }
+          ]
+        },
+        {
+          "id": "bcs:international:65edb15084ea",
+          "title": "সমসাময়িক ঘটনা",
+          "chapter": "বিশ্ব ও আন্তর্জাতিক সম্পর্ক",
+          "subtopics": [
+            {
+              "id": "bcs:international:65edb15084ea:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bcs:geography",
+      "track": "BCS",
+      "title": "ভূগোল, পরিবেশ ও দুর্যোগ",
+      "topics": [
+        {
+          "id": "bcs:geography:aa339cb5bd11",
+          "title": "বাংলাদেশের অবস্থান ও ভূপ্রকৃতি",
+          "chapter": "ভূগোল",
+          "subtopics": [
+            {
+              "id": "bcs:geography:aa339cb5bd11:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:geography:aa339cb5bd11:78dce84d2e0f",
+              "title": "নদীভূমি"
+            }
+          ]
+        },
+        {
+          "id": "bcs:geography:1644479ad6b5",
+          "title": "বিশ্ব ভূগোল",
+          "chapter": "ভূগোল",
+          "subtopics": [
+            {
+              "id": "bcs:geography:1644479ad6b5:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:geography:1644479ad6b5:99c825a1422f",
+              "title": "স্থানাঙ্ক"
+            }
+          ]
+        },
+        {
+          "id": "bcs:geography:8a66ea49bc3e",
+          "title": "জলবায়ু",
+          "chapter": "ভূগোল",
+          "subtopics": [
+            {
+              "id": "bcs:geography:8a66ea49bc3e:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:geography:8a66ea49bc3e:a0c311d05236",
+              "title": "ঋতু"
+            },
+            {
+              "id": "bcs:geography:8a66ea49bc3e:f90c60bf7d9f",
+              "title": "বায়ুমণ্ডল"
+            }
+          ]
+        },
+        {
+          "id": "bcs:geography:7d15f9f2739c",
+          "title": "প্রাকৃতিক সম্পদ",
+          "chapter": "ভূগোল",
+          "subtopics": [
+            {
+              "id": "bcs:geography:7d15f9f2739c:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:geography:09c709ec86b6",
+          "title": "বাস্তুতন্ত্র",
+          "chapter": "পরিবেশ ও দুর্যোগ",
+          "subtopics": [
+            {
+              "id": "bcs:geography:09c709ec86b6:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:geography:8cab1abb2de7",
+          "title": "দূষণ",
+          "chapter": "পরিবেশ ও দুর্যোগ",
+          "subtopics": [
+            {
+              "id": "bcs:geography:8cab1abb2de7:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:geography:8cab1abb2de7:6b7fe6081b61",
+              "title": "পরিবেশ"
+            }
+          ]
+        },
+        {
+          "id": "bcs:geography:4dcd871b12f2",
+          "title": "জলবায়ু পরিবর্তন",
+          "chapter": "পরিবেশ ও দুর্যোগ",
+          "subtopics": [
+            {
+              "id": "bcs:geography:4dcd871b12f2:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:geography:c1cb496af13f",
+          "title": "দুর্যোগ ঝুঁকি",
+          "chapter": "পরিবেশ ও দুর্যোগ",
+          "subtopics": [
+            {
+              "id": "bcs:geography:c1cb496af13f:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:geography:c1cb496af13f:aea17e4f99a2",
+              "title": "ভূমিকম্প"
+            },
+            {
+              "id": "bcs:geography:c1cb496af13f:d4e80b351a04",
+              "title": "ঘূর্ণিঝড়"
+            }
+          ]
+        },
+        {
+          "id": "bcs:geography:1bd2cb940a84",
+          "title": "প্রস্তুতি ও প্রশমন",
+          "chapter": "পরিবেশ ও দুর্যোগ",
+          "subtopics": [
+            {
+              "id": "bcs:geography:1bd2cb940a84:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:geography:1bd2cb940a84:15db76ffc233",
+              "title": "দুর্যোগ প্রস্তুতি"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bcs:science",
+      "track": "BCS",
+      "title": "সাধারণ বিজ্ঞান",
+      "topics": [
+        {
+          "id": "bcs:science:a17f73157029",
+          "title": "ভৌত রাশি ও একক",
+          "chapter": "ভৌত বিজ্ঞান",
+          "subtopics": [
+            {
+              "id": "bcs:science:a17f73157029:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:science:a17f73157029:9b426deb1c88",
+              "title": "পরিমাপ"
+            }
+          ]
+        },
+        {
+          "id": "bcs:science:b5c3e35138b9",
+          "title": "গতি ও বল",
+          "chapter": "ভৌত বিজ্ঞান",
+          "subtopics": [
+            {
+              "id": "bcs:science:b5c3e35138b9:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:science:58fbf2103113",
+          "title": "কাজ, শক্তি ও ক্ষমতা",
+          "chapter": "ভৌত বিজ্ঞান",
+          "subtopics": [
+            {
+              "id": "bcs:science:58fbf2103113:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:science:58fbf2103113:7bd89f5cd9a4",
+              "title": "কাজ ও শক্তি"
+            }
+          ]
+        },
+        {
+          "id": "bcs:science:6879f11f1e4d",
+          "title": "তাপ",
+          "chapter": "ভৌত বিজ্ঞান",
+          "subtopics": [
+            {
+              "id": "bcs:science:6879f11f1e4d:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:science:48fd4f2d32b2",
+          "title": "আলো ও শব্দ",
+          "chapter": "ভৌত বিজ্ঞান",
+          "subtopics": [
+            {
+              "id": "bcs:science:48fd4f2d32b2:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:science:48fd4f2d32b2:a24c09a18d30",
+              "title": "আলো"
+            }
+          ]
+        },
+        {
+          "id": "bcs:science:35722c11b79a",
+          "title": "বিদ্যুৎ ও চুম্বক",
+          "chapter": "ভৌত বিজ্ঞান",
+          "subtopics": [
+            {
+              "id": "bcs:science:35722c11b79a:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:science:35722c11b79a:848b3a7dd002",
+              "title": "বিদ্যুৎ"
+            }
+          ]
+        },
+        {
+          "id": "bcs:science:6a8f53327ff5",
+          "title": "পরমাণু ও রাসায়নিক বিক্রিয়া",
+          "chapter": "ভৌত বিজ্ঞান",
+          "subtopics": [
+            {
+              "id": "bcs:science:6a8f53327ff5:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:science:6a8f53327ff5:38d2d9aa1a80",
+              "title": "অম্ল ও ক্ষার"
+            },
+            {
+              "id": "bcs:science:6a8f53327ff5:11807c752703",
+              "title": "পরমাণু"
+            }
+          ]
+        },
+        {
+          "id": "bcs:science:26e67e116026",
+          "title": "কোষ",
+          "chapter": "জীব ও আধুনিক বিজ্ঞান",
+          "subtopics": [
+            {
+              "id": "bcs:science:26e67e116026:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:science:a526aeb62e8a",
+          "title": "জীবপ্রক্রিয়া",
+          "chapter": "জীব ও আধুনিক বিজ্ঞান",
+          "subtopics": [
+            {
+              "id": "bcs:science:a526aeb62e8a:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:science:a526aeb62e8a:f431a2370588",
+              "title": "উদ্ভিদবিজ্ঞান"
+            },
+            {
+              "id": "bcs:science:a526aeb62e8a:27416aa044ef",
+              "title": "মানবদেহ"
+            }
+          ]
+        },
+        {
+          "id": "bcs:science:10628f53805c",
+          "title": "পুষ্টি",
+          "chapter": "জীব ও আধুনিক বিজ্ঞান",
+          "subtopics": [
+            {
+              "id": "bcs:science:10628f53805c:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:science:31601d548685",
+          "title": "রোগ ও স্বাস্থ্য",
+          "chapter": "জীব ও আধুনিক বিজ্ঞান",
+          "subtopics": [
+            {
+              "id": "bcs:science:31601d548685:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:science:31601d548685:b67b9ec4675f",
+              "title": "সংক্রামক রোগ"
+            }
+          ]
+        },
+        {
+          "id": "bcs:science:a29b59a2d20b",
+          "title": "জিন ও বংশগতি",
+          "chapter": "জীব ও আধুনিক বিজ্ঞান",
+          "subtopics": [
+            {
+              "id": "bcs:science:a29b59a2d20b:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:science:a81709bb2cd8",
+          "title": "আধুনিক প্রযুক্তি",
+          "chapter": "জীব ও আধুনিক বিজ্ঞান",
+          "subtopics": [
+            {
+              "id": "bcs:science:a81709bb2cd8:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bcs:ict",
+      "track": "BCS",
+      "title": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+      "topics": [
+        {
+          "id": "bcs:ict:c1ccacfd7c52",
+          "title": "হার্ডওয়্যার",
+          "chapter": "কম্পিউটার",
+          "subtopics": [
+            {
+              "id": "bcs:ict:c1ccacfd7c52:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:ict:c2c2ff567efa",
+          "title": "সফটওয়্যার",
+          "chapter": "কম্পিউটার",
+          "subtopics": [
+            {
+              "id": "bcs:ict:c2c2ff567efa:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:ict:c2c2ff567efa:2ab377bad512",
+              "title": "স্প্রেডশিট"
+            },
+            {
+              "id": "bcs:ict:c2c2ff567efa:4a98d421c372",
+              "title": "প্রোগ্রামিং"
+            }
+          ]
+        },
+        {
+          "id": "bcs:ict:f4a3a6bc619a",
+          "title": "সংখ্যা পদ্ধতি",
+          "chapter": "কম্পিউটার",
+          "subtopics": [
+            {
+              "id": "bcs:ict:f4a3a6bc619a:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:ict:f4a3a6bc619a:4bfbca2f0e57",
+              "title": "সংখ্যাপদ্ধতি"
+            }
+          ]
+        },
+        {
+          "id": "bcs:ict:95aea70c07b0",
+          "title": "ডেটা ও মেমোরি",
+          "chapter": "কম্পিউটার",
+          "subtopics": [
+            {
+              "id": "bcs:ict:95aea70c07b0:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:ict:95aea70c07b0:f4ca4cf03d9d",
+              "title": "মেমরি"
+            },
+            {
+              "id": "bcs:ict:95aea70c07b0:9a66c2ef1d18",
+              "title": "ডেটার একক"
+            }
+          ]
+        },
+        {
+          "id": "bcs:ict:2064bda18a22",
+          "title": "অপারেটিং সিস্টেম",
+          "chapter": "কম্পিউটার",
+          "subtopics": [
+            {
+              "id": "bcs:ict:2064bda18a22:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:ict:6c805050a42a",
+          "title": "ডেটাবেজ",
+          "chapter": "কম্পিউটার",
+          "subtopics": [
+            {
+              "id": "bcs:ict:6c805050a42a:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:ict:6c805050a42a:fca3b7cc9e3c",
+              "title": "ডেটাবেস"
+            }
+          ]
+        },
+        {
+          "id": "bcs:ict:83c3543cb233",
+          "title": "নেটওয়ার্ক",
+          "chapter": "তথ্যপ্রযুক্তি",
+          "subtopics": [
+            {
+              "id": "bcs:ict:83c3543cb233:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:ict:7dc8e73e7b92",
+          "title": "ইন্টারনেট ও ওয়েব",
+          "chapter": "তথ্যপ্রযুক্তি",
+          "subtopics": [
+            {
+              "id": "bcs:ict:7dc8e73e7b92:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:ict:7dc8e73e7b92:f914e5a95460",
+              "title": "ইন্টারনেট"
+            }
+          ]
+        },
+        {
+          "id": "bcs:ict:b6d7ad7943ff",
+          "title": "সাইবার নিরাপত্তা",
+          "chapter": "তথ্যপ্রযুক্তি",
+          "subtopics": [
+            {
+              "id": "bcs:ict:b6d7ad7943ff:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:ict:df256def7adb",
+          "title": "ডিজিটাল সেবা",
+          "chapter": "তথ্যপ্রযুক্তি",
+          "subtopics": [
+            {
+              "id": "bcs:ict:df256def7adb:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:ict:992d5c220407",
+          "title": "উদীয়মান প্রযুক্তি",
+          "chapter": "তথ্যপ্রযুক্তি",
+          "subtopics": [
+            {
+              "id": "bcs:ict:992d5c220407:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bcs:math",
+      "track": "BCS",
+      "title": "গাণিতিক যুক্তি",
+      "topics": [
+        {
+          "id": "bcs:math:7a6ff78f9440",
+          "title": "বাস্তব সংখ্যা",
+          "chapter": "পাটিগণিত",
+          "subtopics": [
+            {
+              "id": "bcs:math:7a6ff78f9440:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:math:7a6ff78f9440:4f3ef4b22679",
+              "title": "জোড়-বিজোড়"
+            },
+            {
+              "id": "bcs:math:7a6ff78f9440:39aa511048b3",
+              "title": "মৌলিক সংখ্যা"
+            },
+            {
+              "id": "bcs:math:7a6ff78f9440:99023d9a86c6",
+              "title": "মৌলিকতা পরীক্ষা"
+            },
+            {
+              "id": "bcs:math:7a6ff78f9440:0271932f47cb",
+              "title": "সহমৌলিক"
+            },
+            {
+              "id": "bcs:math:7a6ff78f9440:a15b7a5422db",
+              "title": "মূলদ সংখ্যা"
+            },
+            {
+              "id": "bcs:math:7a6ff78f9440:1ab573e2f3df",
+              "title": "অমূলদ সংখ্যা"
+            },
+            {
+              "id": "bcs:math:7a6ff78f9440:3cb6fd291852",
+              "title": "আবৃত্ত দশমিক"
+            },
+            {
+              "id": "bcs:math:7a6ff78f9440:d8b0eec235d9",
+              "title": "অমূলদ রাশি"
+            },
+            {
+              "id": "bcs:math:7a6ff78f9440:b38d24590f24",
+              "title": "সংখ্যার শ্রেণি"
+            },
+            {
+              "id": "bcs:math:7a6ff78f9440:82fcb3b4025c",
+              "title": "ক্রমিক পূর্ণসংখ্যা"
+            },
+            {
+              "id": "bcs:math:7a6ff78f9440:687ec8ad63e0",
+              "title": "অঙ্কবিন্যাস"
+            },
+            {
+              "id": "bcs:math:7a6ff78f9440:828c9bed753c",
+              "title": "মৌলিক উৎপাদক"
+            },
+            {
+              "id": "bcs:math:7a6ff78f9440:991d77dc6844",
+              "title": "যৌগিক সংখ্যা"
+            },
+            {
+              "id": "bcs:math:7a6ff78f9440:53ef464f21bd",
+              "title": "মৌলিক সংখ্যার গুণফল"
+            },
+            {
+              "id": "bcs:math:7a6ff78f9440:f7925d3633fb",
+              "title": "সহমৌলিক ও যৌগিক"
+            }
+          ]
+        },
+        {
+          "id": "bcs:math:350babbe7e25",
+          "title": "গসাগু ও লসাগু",
+          "chapter": "পাটিগণিত",
+          "subtopics": [
+            {
+              "id": "bcs:math:350babbe7e25:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:math:350babbe7e25:615d3e6009ea",
+              "title": "গসাগু"
+            },
+            {
+              "id": "bcs:math:350babbe7e25:569da25a3e5a",
+              "title": "লসাগু"
+            },
+            {
+              "id": "bcs:math:350babbe7e25:53b71b2f6791",
+              "title": "গসাগু-লসাগুর সম্পর্ক"
+            },
+            {
+              "id": "bcs:math:350babbe7e25:478281098e7e",
+              "title": "সাধারণ গুণনীয়ক"
+            },
+            {
+              "id": "bcs:math:350babbe7e25:6327d5be0056",
+              "title": "সাধারণ গুণিতক"
+            },
+            {
+              "id": "bcs:math:350babbe7e25:b762bacc9a80",
+              "title": "ভাগশেষ"
+            },
+            {
+              "id": "bcs:math:350babbe7e25:0b3f02377b2d",
+              "title": "সমবণ্টন"
+            },
+            {
+              "id": "bcs:math:350babbe7e25:c8ffc5878410",
+              "title": "সমাপতন"
+            },
+            {
+              "id": "bcs:math:350babbe7e25:58691e9774ae",
+              "title": "গসাগু ও অনুপাত"
+            },
+            {
+              "id": "bcs:math:350babbe7e25:3f0bce23855a",
+              "title": "লসাগু ও অনুপাত"
+            },
+            {
+              "id": "bcs:math:350babbe7e25:8960a9305ebf",
+              "title": "ইউক্লিডীয় সম্পর্ক"
+            },
+            {
+              "id": "bcs:math:350babbe7e25:c61b76a00621",
+              "title": "গুণনীয়ক-গুণিতক"
+            },
+            {
+              "id": "bcs:math:350babbe7e25:5870f9e0bf58",
+              "title": "সমান টুকরা"
+            },
+            {
+              "id": "bcs:math:350babbe7e25:630c34e0a59a",
+              "title": "একই ভাগশেষ"
+            },
+            {
+              "id": "bcs:math:350babbe7e25:97297d21d83d",
+              "title": "সংখ্যাজোড়া"
+            }
+          ]
+        },
+        {
+          "id": "bcs:math:add785eba681",
+          "title": "শতকরা",
+          "chapter": "পাটিগণিত",
+          "subtopics": [
+            {
+              "id": "bcs:math:add785eba681:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:math:bd518d8f1bc5",
+          "title": "লাভ-ক্ষতি",
+          "chapter": "পাটিগণিত",
+          "subtopics": [
+            {
+              "id": "bcs:math:bd518d8f1bc5:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:math:bd518d8f1bc5:d258bf587038",
+              "title": "লাভ ও ক্ষতি"
+            }
+          ]
+        },
+        {
+          "id": "bcs:math:828f02bff557",
+          "title": "অনুপাত",
+          "chapter": "পাটিগণিত",
+          "subtopics": [
+            {
+              "id": "bcs:math:828f02bff557:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:math:ecc48a566f76",
+          "title": "সরল ও চক্রবৃদ্ধি সুদ",
+          "chapter": "পাটিগণিত",
+          "subtopics": [
+            {
+              "id": "bcs:math:ecc48a566f76:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:math:ecc48a566f76:e2680f19c733",
+              "title": "সরল সুদ"
+            }
+          ]
+        },
+        {
+          "id": "bcs:math:3026c1ceff24",
+          "title": "সমীকরণ",
+          "chapter": "বীজগণিত",
+          "subtopics": [
+            {
+              "id": "bcs:math:3026c1ceff24:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:math:3026c1ceff24:af71ec46a593",
+              "title": "বীজগণিত"
+            }
+          ]
+        },
+        {
+          "id": "bcs:math:21e4a538491d",
+          "title": "অসমতা",
+          "chapter": "বীজগণিত",
+          "subtopics": [
+            {
+              "id": "bcs:math:21e4a538491d:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:math:ebd2ae682f50",
+          "title": "সূচক ও লগারিদম",
+          "chapter": "বীজগণিত",
+          "subtopics": [
+            {
+              "id": "bcs:math:ebd2ae682f50:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:math:ebd2ae682f50:e6484abfc3b1",
+              "title": "সূচক"
+            }
+          ]
+        },
+        {
+          "id": "bcs:math:8f31cb1c66dd",
+          "title": "ধারা",
+          "chapter": "বীজগণিত",
+          "subtopics": [
+            {
+              "id": "bcs:math:8f31cb1c66dd:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:math:57d41b4388de",
+          "title": "বিন্যাস ও সমাবেশ",
+          "chapter": "বীজগণিত",
+          "subtopics": [
+            {
+              "id": "bcs:math:57d41b4388de:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:math:af3313c1f7fe",
+          "title": "রেখা ও কোণ",
+          "chapter": "জ্যামিতি ও পরিসংখ্যান",
+          "subtopics": [
+            {
+              "id": "bcs:math:af3313c1f7fe:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:math:407104a84c63",
+          "title": "ত্রিভুজ",
+          "chapter": "জ্যামিতি ও পরিসংখ্যান",
+          "subtopics": [
+            {
+              "id": "bcs:math:407104a84c63:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:math:407104a84c63:00cd2f9eb85d",
+              "title": "জ্যামিতি"
+            }
+          ]
+        },
+        {
+          "id": "bcs:math:b26626d51891",
+          "title": "বৃত্ত",
+          "chapter": "জ্যামিতি ও পরিসংখ্যান",
+          "subtopics": [
+            {
+              "id": "bcs:math:b26626d51891:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:math:b26626d51891:7be2f5e9f87c",
+              "title": "পরিমিতি"
+            }
+          ]
+        },
+        {
+          "id": "bcs:math:7be2f5e9f87c",
+          "title": "পরিমিতি",
+          "chapter": "জ্যামিতি ও পরিসংখ্যান",
+          "subtopics": [
+            {
+              "id": "bcs:math:7be2f5e9f87c:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:math:8c1a0e43eca4",
+          "title": "সেট",
+          "chapter": "জ্যামিতি ও পরিসংখ্যান",
+          "subtopics": [
+            {
+              "id": "bcs:math:8c1a0e43eca4:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:math:c8b0e47b891e",
+          "title": "সম্ভাবনা",
+          "chapter": "জ্যামিতি ও পরিসংখ্যান",
+          "subtopics": [
+            {
+              "id": "bcs:math:c8b0e47b891e:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:math:fd0a4697570f",
+          "title": "কেন্দ্রীয় প্রবণতা",
+          "chapter": "জ্যামিতি ও পরিসংখ্যান",
+          "subtopics": [
+            {
+              "id": "bcs:math:fd0a4697570f:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:math:fd0a4697570f:db7e14f70f82",
+              "title": "গড়"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bcs:mental",
+      "track": "BCS",
+      "title": "মানসিক দক্ষতা",
+      "topics": [
+        {
+          "id": "bcs:mental:bcde0e51bb3e",
+          "title": "ভাষাগত যুক্তি",
+          "chapter": "যুক্তি ও বিশ্লেষণ",
+          "subtopics": [
+            {
+              "id": "bcs:mental:bcde0e51bb3e:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:mental:bcde0e51bb3e:a21fcf7d6224",
+              "title": "বর্ণধারা"
+            },
+            {
+              "id": "bcs:mental:bcde0e51bb3e:2749d19fdf77",
+              "title": "সাংকেতিক ভাষা"
+            },
+            {
+              "id": "bcs:mental:bcde0e51bb3e:7c2741a3c81d",
+              "title": "যৌক্তিক সিদ্ধান্ত"
+            }
+          ]
+        },
+        {
+          "id": "bcs:mental:a4ba3d3f1e21",
+          "title": "সংখ্যা ধারা",
+          "chapter": "যুক্তি ও বিশ্লেষণ",
+          "subtopics": [
+            {
+              "id": "bcs:mental:a4ba3d3f1e21:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:mental:a4ba3d3f1e21:e32ddf9118c0",
+              "title": "সংখ্যাধারা"
+            }
+          ]
+        },
+        {
+          "id": "bcs:mental:3fa413572d83",
+          "title": "সাদৃশ্য",
+          "chapter": "যুক্তি ও বিশ্লেষণ",
+          "subtopics": [
+            {
+              "id": "bcs:mental:3fa413572d83:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:mental:d749f377a317",
+          "title": "সম্পর্ক ও দিক",
+          "chapter": "যুক্তি ও বিশ্লেষণ",
+          "subtopics": [
+            {
+              "id": "bcs:mental:d749f377a317:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:mental:d749f377a317:4a29387c35d3",
+              "title": "দিক নির্ণয়"
+            },
+            {
+              "id": "bcs:mental:d749f377a317:61e3ff8658c7",
+              "title": "রক্তের সম্পর্ক"
+            }
+          ]
+        },
+        {
+          "id": "bcs:mental:a9a19f27fa05",
+          "title": "স্থানিক দক্ষতা",
+          "chapter": "যুক্তি ও বিশ্লেষণ",
+          "subtopics": [
+            {
+              "id": "bcs:mental:a9a19f27fa05:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:mental:4eb2b1975345",
+          "title": "যান্ত্রিক যুক্তি",
+          "chapter": "যুক্তি ও বিশ্লেষণ",
+          "subtopics": [
+            {
+              "id": "bcs:mental:4eb2b1975345:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:mental:471ea4eef405",
+          "title": "সমস্যা সমাধান",
+          "chapter": "যুক্তি ও বিশ্লেষণ",
+          "subtopics": [
+            {
+              "id": "bcs:mental:471ea4eef405:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:mental:471ea4eef405:683ecdbce3fb",
+              "title": "ক্রমবিন্যাস"
+            },
+            {
+              "id": "bcs:mental:471ea4eef405:1d60a8fca191",
+              "title": "ক্যালেন্ডার"
+            },
+            {
+              "id": "bcs:mental:471ea4eef405:86185c882f2d",
+              "title": "ঘড়ি"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bcs:ethics",
+      "track": "BCS",
+      "title": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+      "topics": [
+        {
+          "id": "bcs:ethics:7a803ff05514",
+          "title": "নৈতিকতার ধারণা",
+          "chapter": "নৈতিকতা ও সুশাসন",
+          "subtopics": [
+            {
+              "id": "bcs:ethics:7a803ff05514:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:ethics:7a803ff05514:a24f2f983d6f",
+              "title": "তথ্যের দায়িত্বশীল ব্যবহার"
+            }
+          ]
+        },
+        {
+          "id": "bcs:ethics:9d86ab6dc7cc",
+          "title": "মূল্যবোধ",
+          "chapter": "নৈতিকতা ও সুশাসন",
+          "subtopics": [
+            {
+              "id": "bcs:ethics:9d86ab6dc7cc:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:ethics:9d86ab6dc7cc:c73ae6e31e6c",
+              "title": "সমতা ও ন্যায্যতা"
+            }
+          ]
+        },
+        {
+          "id": "bcs:ethics:35449ab19bd9",
+          "title": "সততা ও জবাবদিহি",
+          "chapter": "নৈতিকতা ও সুশাসন",
+          "subtopics": [
+            {
+              "id": "bcs:ethics:35449ab19bd9:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:ethics:35449ab19bd9:35caff077514",
+              "title": "জবাবদিহি"
+            },
+            {
+              "id": "bcs:ethics:35449ab19bd9:69976515377c",
+              "title": "সততা"
+            }
+          ]
+        },
+        {
+          "id": "bcs:ethics:a0cd13792bb6",
+          "title": "আইনের শাসন",
+          "chapter": "নৈতিকতা ও সুশাসন",
+          "subtopics": [
+            {
+              "id": "bcs:ethics:a0cd13792bb6:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:ethics:c08a9bf3a60c",
+          "title": "স্বচ্ছতা",
+          "chapter": "নৈতিকতা ও সুশাসন",
+          "subtopics": [
+            {
+              "id": "bcs:ethics:c08a9bf3a60c:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:ethics:75e50837eb87",
+          "title": "স্বার্থের সংঘাত",
+          "chapter": "নৈতিকতা ও সুশাসন",
+          "subtopics": [
+            {
+              "id": "bcs:ethics:75e50837eb87:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "bcs:ethics:3b3922ca874e",
+          "title": "সুশাসন ও উন্নয়ন",
+          "chapter": "নৈতিকতা ও সুশাসন",
+          "subtopics": [
+            {
+              "id": "bcs:ethics:3b3922ca874e:general",
+              "title": "সাধারণ অনুশীলন"
+            },
+            {
+              "id": "bcs:ethics:3b3922ca874e:cf63450fe35d",
+              "title": "অংশগ্রহণ"
+            },
+            {
+              "id": "bcs:ethics:3b3922ca874e:7bcec646b7d9",
+              "title": "কর্তব্যনিষ্ঠা"
+            },
+            {
+              "id": "bcs:ethics:3b3922ca874e:a2ebbce1d7d7",
+              "title": "টেকসই নৈতিকতা"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eee:circuit",
+      "track": "EEE",
+      "title": "Electrical Circuit Analysis",
+      "topics": [
+        {
+          "id": "eee:circuit:60d6f88fd6a0",
+          "title": "Ohm’s law",
+          "chapter": "DC networks",
+          "subtopics": [
+            {
+              "id": "eee:circuit:60d6f88fd6a0:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:circuit:baff70a9975b",
+          "title": "KCL and KVL",
+          "chapter": "DC networks",
+          "subtopics": [
+            {
+              "id": "eee:circuit:baff70a9975b:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:circuit:0cc704a33351",
+          "title": "Nodal analysis",
+          "chapter": "DC networks",
+          "subtopics": [
+            {
+              "id": "eee:circuit:0cc704a33351:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:circuit:82ba760db125",
+          "title": "Mesh analysis",
+          "chapter": "DC networks",
+          "subtopics": [
+            {
+              "id": "eee:circuit:82ba760db125:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:circuit:6d84400fc29d",
+          "title": "Thevenin and Norton",
+          "chapter": "DC networks",
+          "subtopics": [
+            {
+              "id": "eee:circuit:6d84400fc29d:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:circuit:efd1c1b5a408",
+          "title": "Superposition",
+          "chapter": "DC networks",
+          "subtopics": [
+            {
+              "id": "eee:circuit:efd1c1b5a408:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:circuit:651e17a99ccb",
+          "title": "Phasors",
+          "chapter": "AC and transients",
+          "subtopics": [
+            {
+              "id": "eee:circuit:651e17a99ccb:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:circuit:08cf512b3099",
+          "title": "Impedance",
+          "chapter": "AC and transients",
+          "subtopics": [
+            {
+              "id": "eee:circuit:08cf512b3099:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:circuit:86b3a069372a",
+          "title": "RLC resonance",
+          "chapter": "AC and transients",
+          "subtopics": [
+            {
+              "id": "eee:circuit:86b3a069372a:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:circuit:b435d939fe5a",
+          "title": "First-order transients",
+          "chapter": "AC and transients",
+          "subtopics": [
+            {
+              "id": "eee:circuit:b435d939fe5a:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:circuit:de4c706e8e47",
+          "title": "Three-phase circuits",
+          "chapter": "AC and transients",
+          "subtopics": [
+            {
+              "id": "eee:circuit:de4c706e8e47:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eee:machines",
+      "track": "EEE",
+      "title": "Electrical Machines",
+      "topics": [
+        {
+          "id": "eee:machines:d56fd5a709c0",
+          "title": "Equivalent circuit",
+          "chapter": "Transformers",
+          "subtopics": [
+            {
+              "id": "eee:machines:d56fd5a709c0:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:machines:9e8f1fb7b540",
+          "title": "Losses and efficiency",
+          "chapter": "Transformers",
+          "subtopics": [
+            {
+              "id": "eee:machines:9e8f1fb7b540:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:machines:5a4828036ae9",
+          "title": "Regulation",
+          "chapter": "Transformers",
+          "subtopics": [
+            {
+              "id": "eee:machines:5a4828036ae9:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:machines:cc0cc617a808",
+          "title": "OC and SC tests",
+          "chapter": "Transformers",
+          "subtopics": [
+            {
+              "id": "eee:machines:cc0cc617a808:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:machines:29b6942dc8d3",
+          "title": "DC machines",
+          "chapter": "Rotating machines",
+          "subtopics": [
+            {
+              "id": "eee:machines:29b6942dc8d3:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:machines:929762b7a12d",
+          "title": "Induction motors",
+          "chapter": "Rotating machines",
+          "subtopics": [
+            {
+              "id": "eee:machines:929762b7a12d:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:machines:bb0eed0b70ce",
+          "title": "Synchronous machines",
+          "chapter": "Rotating machines",
+          "subtopics": [
+            {
+              "id": "eee:machines:bb0eed0b70ce:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:machines:225832b35b31",
+          "title": "Starting and speed control",
+          "chapter": "Rotating machines",
+          "subtopics": [
+            {
+              "id": "eee:machines:225832b35b31:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eee:power",
+      "track": "EEE",
+      "title": "Power Systems",
+      "topics": [
+        {
+          "id": "eee:power:675f7a46c506",
+          "title": "Per-unit system",
+          "chapter": "System analysis",
+          "subtopics": [
+            {
+              "id": "eee:power:675f7a46c506:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:power:ed51f6b5dac3",
+          "title": "Load flow",
+          "chapter": "System analysis",
+          "subtopics": [
+            {
+              "id": "eee:power:ed51f6b5dac3:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:power:503591b06ece",
+          "title": "Fault analysis",
+          "chapter": "System analysis",
+          "subtopics": [
+            {
+              "id": "eee:power:503591b06ece:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:power:9b57260124a7",
+          "title": "Symmetrical components",
+          "chapter": "System analysis",
+          "subtopics": [
+            {
+              "id": "eee:power:9b57260124a7:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:power:1e42d0c86af7",
+          "title": "Stability",
+          "chapter": "System analysis",
+          "subtopics": [
+            {
+              "id": "eee:power:1e42d0c86af7:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:power:0cf90110ca17",
+          "title": "Power factor correction",
+          "chapter": "System analysis",
+          "subtopics": [
+            {
+              "id": "eee:power:0cf90110ca17:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eee:generation",
+      "track": "EEE",
+      "title": "Power Generation",
+      "topics": [
+        {
+          "id": "eee:generation:0bcb9fd183c6",
+          "title": "Thermal stations",
+          "chapter": "Generation fundamentals",
+          "subtopics": [
+            {
+              "id": "eee:generation:0bcb9fd183c6:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:generation:7bbe36e3ae98",
+          "title": "Hydroelectric stations",
+          "chapter": "Generation fundamentals",
+          "subtopics": [
+            {
+              "id": "eee:generation:7bbe36e3ae98:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:generation:3084312d812a",
+          "title": "Gas turbines",
+          "chapter": "Generation fundamentals",
+          "subtopics": [
+            {
+              "id": "eee:generation:3084312d812a:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:generation:97c61e5b1dc9",
+          "title": "Nuclear basics",
+          "chapter": "Generation fundamentals",
+          "subtopics": [
+            {
+              "id": "eee:generation:97c61e5b1dc9:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:generation:caaa9f429e2c",
+          "title": "Load curves",
+          "chapter": "Generation fundamentals",
+          "subtopics": [
+            {
+              "id": "eee:generation:caaa9f429e2c:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:generation:9cf369add69c",
+          "title": "Economic dispatch",
+          "chapter": "Generation fundamentals",
+          "subtopics": [
+            {
+              "id": "eee:generation:9cf369add69c:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eee:transmission",
+      "track": "EEE",
+      "title": "Transmission and Distribution",
+      "topics": [
+        {
+          "id": "eee:transmission:e60326c53497",
+          "title": "Line parameters",
+          "chapter": "Networks",
+          "subtopics": [
+            {
+              "id": "eee:transmission:e60326c53497:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:transmission:08e1e2c60367",
+          "title": "Short and long lines",
+          "chapter": "Networks",
+          "subtopics": [
+            {
+              "id": "eee:transmission:08e1e2c60367:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:transmission:753cdb88284c",
+          "title": "Corona",
+          "chapter": "Networks",
+          "subtopics": [
+            {
+              "id": "eee:transmission:753cdb88284c:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:transmission:b7299f382a86",
+          "title": "Insulators",
+          "chapter": "Networks",
+          "subtopics": [
+            {
+              "id": "eee:transmission:b7299f382a86:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:transmission:2f75d2e1c15c",
+          "title": "Cables",
+          "chapter": "Networks",
+          "subtopics": [
+            {
+              "id": "eee:transmission:2f75d2e1c15c:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:transmission:787807596912",
+          "title": "Distribution feeders",
+          "chapter": "Networks",
+          "subtopics": [
+            {
+              "id": "eee:transmission:787807596912:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:transmission:c4409da83bd3",
+          "title": "Voltage regulation",
+          "chapter": "Networks",
+          "subtopics": [
+            {
+              "id": "eee:transmission:c4409da83bd3:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eee:power-electronics",
+      "track": "EEE",
+      "title": "Power Electronics",
+      "topics": [
+        {
+          "id": "eee:power-electronics:9c5faba39e67",
+          "title": "Diodes and SCRs",
+          "chapter": "Devices and converters",
+          "subtopics": [
+            {
+              "id": "eee:power-electronics:9c5faba39e67:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:power-electronics:1976651c237f",
+          "title": "MOSFET and IGBT",
+          "chapter": "Devices and converters",
+          "subtopics": [
+            {
+              "id": "eee:power-electronics:1976651c237f:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:power-electronics:f73b73f2119e",
+          "title": "Rectifiers",
+          "chapter": "Devices and converters",
+          "subtopics": [
+            {
+              "id": "eee:power-electronics:f73b73f2119e:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:power-electronics:1cb20c689677",
+          "title": "DC choppers",
+          "chapter": "Devices and converters",
+          "subtopics": [
+            {
+              "id": "eee:power-electronics:1cb20c689677:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:power-electronics:4add2850e52c",
+          "title": "Inverters",
+          "chapter": "Devices and converters",
+          "subtopics": [
+            {
+              "id": "eee:power-electronics:4add2850e52c:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:power-electronics:c37490c37e59",
+          "title": "PWM",
+          "chapter": "Devices and converters",
+          "subtopics": [
+            {
+              "id": "eee:power-electronics:c37490c37e59:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:power-electronics:35f69a05559f",
+          "title": "Converter losses",
+          "chapter": "Devices and converters",
+          "subtopics": [
+            {
+              "id": "eee:power-electronics:35f69a05559f:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eee:control",
+      "track": "EEE",
+      "title": "Control Systems",
+      "topics": [
+        {
+          "id": "eee:control:d32f7be66c42",
+          "title": "Transfer functions",
+          "chapter": "Modeling and response",
+          "subtopics": [
+            {
+              "id": "eee:control:d32f7be66c42:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:control:94804e447bcf",
+          "title": "Block diagrams",
+          "chapter": "Modeling and response",
+          "subtopics": [
+            {
+              "id": "eee:control:94804e447bcf:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:control:6a9ec993393d",
+          "title": "Time response",
+          "chapter": "Modeling and response",
+          "subtopics": [
+            {
+              "id": "eee:control:6a9ec993393d:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:control:11dc66b7bce3",
+          "title": "Steady-state error",
+          "chapter": "Modeling and response",
+          "subtopics": [
+            {
+              "id": "eee:control:11dc66b7bce3:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:control:2a0fc865cf7b",
+          "title": "Routh criterion",
+          "chapter": "Stability and design",
+          "subtopics": [
+            {
+              "id": "eee:control:2a0fc865cf7b:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:control:70f8d86992a9",
+          "title": "Root locus",
+          "chapter": "Stability and design",
+          "subtopics": [
+            {
+              "id": "eee:control:70f8d86992a9:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:control:f39d624d67b4",
+          "title": "Bode plots",
+          "chapter": "Stability and design",
+          "subtopics": [
+            {
+              "id": "eee:control:f39d624d67b4:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:control:60629ce7449c",
+          "title": "Nyquist criterion",
+          "chapter": "Stability and design",
+          "subtopics": [
+            {
+              "id": "eee:control:60629ce7449c:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:control:3f302a2a7158",
+          "title": "PID",
+          "chapter": "Stability and design",
+          "subtopics": [
+            {
+              "id": "eee:control:3f302a2a7158:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:control:4b8dd6799a0b",
+          "title": "State space",
+          "chapter": "Stability and design",
+          "subtopics": [
+            {
+              "id": "eee:control:4b8dd6799a0b:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eee:measurement",
+      "track": "EEE",
+      "title": "Electrical Measurements",
+      "topics": [
+        {
+          "id": "eee:measurement:937f8eccb989",
+          "title": "Measurement errors",
+          "chapter": "Instruments",
+          "subtopics": [
+            {
+              "id": "eee:measurement:937f8eccb989:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:measurement:1947f48319e6",
+          "title": "PMMC and MI",
+          "chapter": "Instruments",
+          "subtopics": [
+            {
+              "id": "eee:measurement:1947f48319e6:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:measurement:d982f029f5c8",
+          "title": "Bridges",
+          "chapter": "Instruments",
+          "subtopics": [
+            {
+              "id": "eee:measurement:d982f029f5c8:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:measurement:6a30533739ef",
+          "title": "Power measurement",
+          "chapter": "Instruments",
+          "subtopics": [
+            {
+              "id": "eee:measurement:6a30533739ef:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:measurement:5f2ec3ac5b3b",
+          "title": "Energy meters",
+          "chapter": "Instruments",
+          "subtopics": [
+            {
+              "id": "eee:measurement:5f2ec3ac5b3b:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:measurement:dc9acddc3be3",
+          "title": "CT and PT",
+          "chapter": "Instruments",
+          "subtopics": [
+            {
+              "id": "eee:measurement:dc9acddc3be3:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:measurement:a14fe7a76de0",
+          "title": "Oscilloscopes",
+          "chapter": "Instruments",
+          "subtopics": [
+            {
+              "id": "eee:measurement:a14fe7a76de0:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eee:analog",
+      "track": "EEE",
+      "title": "Analog Electronics",
+      "topics": [
+        {
+          "id": "eee:analog:b908b3481812",
+          "title": "PN junction",
+          "chapter": "Semiconductors and amplifiers",
+          "subtopics": [
+            {
+              "id": "eee:analog:b908b3481812:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:analog:23818cf15796",
+          "title": "Rectifiers and filters",
+          "chapter": "Semiconductors and amplifiers",
+          "subtopics": [
+            {
+              "id": "eee:analog:23818cf15796:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:analog:6bdf2d448ece",
+          "title": "BJT biasing",
+          "chapter": "Semiconductors and amplifiers",
+          "subtopics": [
+            {
+              "id": "eee:analog:6bdf2d448ece:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:analog:7b6994083ff7",
+          "title": "MOSFET",
+          "chapter": "Semiconductors and amplifiers",
+          "subtopics": [
+            {
+              "id": "eee:analog:7b6994083ff7:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:analog:d71ba138c6e4",
+          "title": "Small-signal amplifiers",
+          "chapter": "Semiconductors and amplifiers",
+          "subtopics": [
+            {
+              "id": "eee:analog:d71ba138c6e4:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:analog:f28bccc3d65e",
+          "title": "Op-amps",
+          "chapter": "Semiconductors and amplifiers",
+          "subtopics": [
+            {
+              "id": "eee:analog:f28bccc3d65e:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:analog:0c150c8ffa2d",
+          "title": "Oscillators",
+          "chapter": "Semiconductors and amplifiers",
+          "subtopics": [
+            {
+              "id": "eee:analog:0c150c8ffa2d:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eee:digital",
+      "track": "EEE",
+      "title": "Digital Electronics",
+      "topics": [
+        {
+          "id": "eee:digital:cc4a451a9f29",
+          "title": "Number systems",
+          "chapter": "Logic design",
+          "subtopics": [
+            {
+              "id": "eee:digital:cc4a451a9f29:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:digital:db0daa5bbcd2",
+          "title": "Boolean algebra",
+          "chapter": "Logic design",
+          "subtopics": [
+            {
+              "id": "eee:digital:db0daa5bbcd2:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:digital:3b84cf23d368",
+          "title": "Karnaugh maps",
+          "chapter": "Logic design",
+          "subtopics": [
+            {
+              "id": "eee:digital:3b84cf23d368:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:digital:b254c84c7ad4",
+          "title": "Combinational logic",
+          "chapter": "Logic design",
+          "subtopics": [
+            {
+              "id": "eee:digital:b254c84c7ad4:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:digital:d821a10c508b",
+          "title": "Flip-flops",
+          "chapter": "Logic design",
+          "subtopics": [
+            {
+              "id": "eee:digital:d821a10c508b:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:digital:e5a4fa99e74a",
+          "title": "Counters",
+          "chapter": "Logic design",
+          "subtopics": [
+            {
+              "id": "eee:digital:e5a4fa99e74a:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:digital:048713a5001f",
+          "title": "Registers",
+          "chapter": "Logic design",
+          "subtopics": [
+            {
+              "id": "eee:digital:048713a5001f:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:digital:9437d291dfeb",
+          "title": "ADC and DAC",
+          "chapter": "Logic design",
+          "subtopics": [
+            {
+              "id": "eee:digital:9437d291dfeb:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eee:safety",
+      "track": "EEE",
+      "title": "Electrical Installation and Safety",
+      "topics": [
+        {
+          "id": "eee:safety:71b76aa12ef0",
+          "title": "Earthing and bonding",
+          "chapter": "Safe installations",
+          "subtopics": [
+            {
+              "id": "eee:safety:71b76aa12ef0:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:safety:1c02df7058d3",
+          "title": "Wiring systems",
+          "chapter": "Safe installations",
+          "subtopics": [
+            {
+              "id": "eee:safety:1c02df7058d3:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:safety:09b900c0faef",
+          "title": "Cable sizing",
+          "chapter": "Safe installations",
+          "subtopics": [
+            {
+              "id": "eee:safety:09b900c0faef:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:safety:42e94f5adb28",
+          "title": "Protective devices",
+          "chapter": "Safe installations",
+          "subtopics": [
+            {
+              "id": "eee:safety:42e94f5adb28:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:safety:9396c33ee0fc",
+          "title": "RCD",
+          "chapter": "Safe installations",
+          "subtopics": [
+            {
+              "id": "eee:safety:9396c33ee0fc:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:safety:9b03de359e15",
+          "title": "Isolation and lockout",
+          "chapter": "Safe installations",
+          "subtopics": [
+            {
+              "id": "eee:safety:9b03de359e15:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:safety:e5deaba2f04c",
+          "title": "Electrical hazards",
+          "chapter": "Safe installations",
+          "subtopics": [
+            {
+              "id": "eee:safety:e5deaba2f04c:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eee:protection",
+      "track": "EEE",
+      "title": "Switchgear and Protection",
+      "topics": [
+        {
+          "id": "eee:protection:69e4c96df7e3",
+          "title": "Fuse characteristics",
+          "chapter": "Protection systems",
+          "subtopics": [
+            {
+              "id": "eee:protection:69e4c96df7e3:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:protection:8d6075961dd1",
+          "title": "Circuit breakers",
+          "chapter": "Protection systems",
+          "subtopics": [
+            {
+              "id": "eee:protection:8d6075961dd1:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:protection:e7f66a86507f",
+          "title": "Overcurrent relays",
+          "chapter": "Protection systems",
+          "subtopics": [
+            {
+              "id": "eee:protection:e7f66a86507f:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:protection:f49b07d1fca5",
+          "title": "Differential protection",
+          "chapter": "Protection systems",
+          "subtopics": [
+            {
+              "id": "eee:protection:f49b07d1fca5:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:protection:7e74140960df",
+          "title": "Distance protection",
+          "chapter": "Protection systems",
+          "subtopics": [
+            {
+              "id": "eee:protection:7e74140960df:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:protection:9c0f7ed16a6e",
+          "title": "Coordination",
+          "chapter": "Protection systems",
+          "subtopics": [
+            {
+              "id": "eee:protection:9c0f7ed16a6e:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:protection:963154524fa5",
+          "title": "Surge protection",
+          "chapter": "Protection systems",
+          "subtopics": [
+            {
+              "id": "eee:protection:963154524fa5:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eee:renewable",
+      "track": "EEE",
+      "title": "Renewable Energy",
+      "topics": [
+        {
+          "id": "eee:renewable:1e4a0186ae8f",
+          "title": "Solar PV",
+          "chapter": "Renewable systems",
+          "subtopics": [
+            {
+              "id": "eee:renewable:1e4a0186ae8f:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:renewable:4c00a8091fb6",
+          "title": "MPPT",
+          "chapter": "Renewable systems",
+          "subtopics": [
+            {
+              "id": "eee:renewable:4c00a8091fb6:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:renewable:0ec61d998089",
+          "title": "Wind conversion",
+          "chapter": "Renewable systems",
+          "subtopics": [
+            {
+              "id": "eee:renewable:0ec61d998089:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:renewable:a69c4dece144",
+          "title": "Storage",
+          "chapter": "Renewable systems",
+          "subtopics": [
+            {
+              "id": "eee:renewable:a69c4dece144:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:renewable:88e619ac757f",
+          "title": "Grid integration",
+          "chapter": "Renewable systems",
+          "subtopics": [
+            {
+              "id": "eee:renewable:88e619ac757f:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:renewable:a8bba50d7887",
+          "title": "Inverter control",
+          "chapter": "Renewable systems",
+          "subtopics": [
+            {
+              "id": "eee:renewable:a8bba50d7887:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:renewable:9b9ab8ef8f3c",
+          "title": "Energy yield",
+          "chapter": "Renewable systems",
+          "subtopics": [
+            {
+              "id": "eee:renewable:9b9ab8ef8f3c:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eee:micro",
+      "track": "EEE",
+      "title": "Microprocessors and Microcontrollers",
+      "topics": [
+        {
+          "id": "eee:micro:cd74053c5481",
+          "title": "Architecture",
+          "chapter": "Embedded fundamentals",
+          "subtopics": [
+            {
+              "id": "eee:micro:cd74053c5481:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:micro:1041f5ae3628",
+          "title": "Instruction cycle",
+          "chapter": "Embedded fundamentals",
+          "subtopics": [
+            {
+              "id": "eee:micro:1041f5ae3628:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:micro:4a7438f6c909",
+          "title": "Memory map",
+          "chapter": "Embedded fundamentals",
+          "subtopics": [
+            {
+              "id": "eee:micro:4a7438f6c909:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:micro:7c87ab37b6e6",
+          "title": "GPIO",
+          "chapter": "Embedded fundamentals",
+          "subtopics": [
+            {
+              "id": "eee:micro:7c87ab37b6e6:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:micro:cca94c56deb8",
+          "title": "Timers",
+          "chapter": "Embedded fundamentals",
+          "subtopics": [
+            {
+              "id": "eee:micro:cca94c56deb8:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:micro:395f8e35fb98",
+          "title": "Interrupts",
+          "chapter": "Embedded fundamentals",
+          "subtopics": [
+            {
+              "id": "eee:micro:395f8e35fb98:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:micro:a34330e2477f",
+          "title": "UART SPI I²C",
+          "chapter": "Embedded fundamentals",
+          "subtopics": [
+            {
+              "id": "eee:micro:a34330e2477f:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:micro:cfa77b17e649",
+          "title": "ADC interfacing",
+          "chapter": "Embedded fundamentals",
+          "subtopics": [
+            {
+              "id": "eee:micro:cfa77b17e649:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eee:eng-math",
+      "track": "EEE",
+      "title": "Engineering Mathematics",
+      "topics": [
+        {
+          "id": "eee:eng-math:a425679f2362",
+          "title": "Complex numbers",
+          "chapter": "Mathematical tools",
+          "subtopics": [
+            {
+              "id": "eee:eng-math:a425679f2362:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:eng-math:6009efe95f18",
+          "title": "Matrices",
+          "chapter": "Mathematical tools",
+          "subtopics": [
+            {
+              "id": "eee:eng-math:6009efe95f18:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:eng-math:26e732f5bd6a",
+          "title": "Differentiation",
+          "chapter": "Mathematical tools",
+          "subtopics": [
+            {
+              "id": "eee:eng-math:26e732f5bd6a:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:eng-math:9a42d40a3f31",
+          "title": "Integration",
+          "chapter": "Mathematical tools",
+          "subtopics": [
+            {
+              "id": "eee:eng-math:9a42d40a3f31:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:eng-math:37b733d9c9e5",
+          "title": "Differential equations",
+          "chapter": "Mathematical tools",
+          "subtopics": [
+            {
+              "id": "eee:eng-math:37b733d9c9e5:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:eng-math:2ec276573e02",
+          "title": "Laplace transforms",
+          "chapter": "Mathematical tools",
+          "subtopics": [
+            {
+              "id": "eee:eng-math:2ec276573e02:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:eng-math:02bf87b02e59",
+          "title": "Fourier analysis",
+          "chapter": "Mathematical tools",
+          "subtopics": [
+            {
+              "id": "eee:eng-math:02bf87b02e59:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        },
+        {
+          "id": "eee:eng-math:9c9be01ba212",
+          "title": "Probability",
+          "chapter": "Mathematical tools",
+          "subtopics": [
+            {
+              "id": "eee:eng-math:9c9be01ba212:general",
+              "title": "সাধারণ অনুশীলন"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
