@@ -70,6 +70,7 @@ begin
     select jsonb_agg(to_jsonb(x) order by x.starts)
     from (
      select r.id,r.course_id,c.title as course_title,r.title,r.topics,r.kind,
+       to_char(to_timestamp(r.starts/1000.0) at time zone 'Asia/Dhaka','YYYY-MM-DD') as date,
        r.starts,r.ends,r.publish,r.duration,r.marks,r.exam_id,
        case when r.exam_id is null then 'DRAFT'
             when ms<r.starts then 'SCHEDULED'
@@ -82,6 +83,7 @@ begin
        'Admin নির্ধারিত course syllabus অনুযায়ী প্রস্তুতি নিন।' as topics,
        case when m.kind='weekly' then 'WEEKLY_SPECIAL'
             when m.kind='mock' then 'MOCK' else 'DAILY_LIVE' end as kind,
+       to_char(to_timestamp(e.starts/1000.0) at time zone 'Asia/Dhaka','YYYY-MM-DD') as date,
        e.starts,e.ends,e.publish,e.duration,m.marks,e.id as exam_id,
        case when ms<e.starts then 'SCHEDULED'
             when ms<e.ends then 'LIVE' else 'ENDED' end as status
@@ -104,7 +106,7 @@ begin
   return jsonb_build_object('now',ms,'rows',coalesce((
    select jsonb_agg(to_jsonb(r) order by r.starts)
    from jobmaster_private.schedule_routines r
-   where r.course_id=vcourse and not r.removed
+   where r.course_id=vcourse
   ),'[]'::jsonb));
  end if;
 
