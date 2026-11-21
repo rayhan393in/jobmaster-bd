@@ -50,3 +50,18 @@ nav[aria-label="Admin tools"]{flex-wrap:wrap;gap:8px}
 .live-published-dates select{max-width:100%;min-width:0;padding:10px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:inherit}
 @media(max-width:600px){.live-published-dates select{width:100%}.live-date-bar{flex-wrap:wrap}}
 .routine-manager>.notice{display:block;line-height:1.85}.routine-manager>.notice p{margin-top:8px}
+
+/* Advanced exam navigation: clear progress, active question and step controls. */
+.paper-progress{height:6px;background:var(--border);border-radius:20px;overflow:hidden;margin:14px 0 16px}
+.paper-progress i{display:block;height:100%;background:#4358c8;border-radius:20px;transition:width .2s ease}
+.paper-nav .question-numbers button.current{outline:2px solid var(--primary);outline-offset:2px;font-weight:800}
+.paper-shortcut-help{display:flex!important;align-items:center;gap:6px;margin:8px 0 14px!important}
+.paper-toolbar-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap;justify-content:flex-end}
+.paper-step-controls{display:flex;align-items:center;gap:10px}
+.paper-step-controls button,.paper-question-actions button{display:inline-flex;align-items:center;justify-content:center;gap:5px;border:1px solid var(--border);border-radius:7px;padding:8px 10px;background:var(--card);color:var(--text)}
+.paper-step-controls button:disabled{opacity:.4;cursor:not-allowed}
+.paper-step-controls b{font-size:11px;white-space:nowrap}
+.paper-question.is-active{border-color:#8798e5;box-shadow:0 0 0 2px #8798e51a}
+.paper-question-actions{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:16px}
+.paper-question-actions button{font-size:11px}
+@media(max-width:600px){.paper-toolbar-actions{width:100%;justify-content:space-between}.paper-toolbar{flex-wrap:wrap}.paper-question-actions button{padding:9px 10px}}
