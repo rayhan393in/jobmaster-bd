@@ -50,3 +50,7 @@ nav[aria-label="Admin tools"]{flex-wrap:wrap;gap:8px}
 .live-published-dates select{max-width:100%;min-width:0;padding:10px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:inherit}
 @media(max-width:600px){.live-published-dates select{width:100%}.live-date-bar{flex-wrap:wrap}}
 .routine-manager>.notice{display:block;line-height:1.85}.routine-manager>.notice p{margin-top:8px}
+.dashboard-stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:18px 0}
+.dashboard-stat-grid .stat{min-height:auto;padding:14px}
+.smart-approvals label{display:flex;align-items:center;gap:8px;margin:12px 0;font-size:12px}
+.live-exam-admin .cw-stat-grid,.admin-dashboard-panel .cw-stat-grid{grid-template-columns:repeat(auto-fit,minmax(160px,1fr))}
